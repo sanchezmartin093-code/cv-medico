@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="t-page-title" data-de="José Martín Sánchez Insfrán | CV" data-en="MD. Martín Sánchez Insfrán | CV" data-es="Dr. Martín Sánchez Insfrán | CV">José Martín Sánchez Insfrán | CV</title>
+    <meta name="description" content="Professioneller Lebenslauf von Dr. Martín Sánchez. Facharzt für Innere Medizin, Intensivmedizin.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="José Martín Sánchez Insfrán | Facharzt für Innere Medizin">
+    <meta property="og:description" content="Professioneller Lebenslauf. Facharzt für Innere Medizin mit umfangreicher Erfahrung in der Intensivmedizin.">
+    <meta property="og:image" content="img/profile.png">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="José Martín Sánchez Insfrán | Facharzt für Innere Medizin">
+    <meta name="twitter:description" content="Professioneller Lebenslauf. Facharzt für Innere Medizin mit umfangreicher Erfahrung in der Intensivmedizin.">
+    <meta name="twitter:image" content="img/profile.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🩺</text></svg>">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo t-logo" data-de="M. Sánchez Insfrán" data-en="MD. M. Sánchez Insfrán" data-es="Dr. M. Sánchez Insfrán">M. Sánchez Insfrán</div>
+            <div class="lang-switcher">
+                <button onclick="toggleTheme()" class="theme-btn" id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+                <div style="width: 1px; background: var(--glass-border); margin: 0 4px;"></div>
+                <button onclick="setLang('de')" class="lang-btn active" id="btn-de">DE</button>
+                <button onclick="setLang('en')" class="lang-btn" id="btn-en">EN</button>
+                <button onclick="setLang('es')" class="lang-btn" id="btn-es">ES</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="t-title" data-de="José Martín Sánchez Insfrán" data-en="MD. Martín Sánchez Insfrán" data-es="Dr. Martín Sánchez Insfrán">José Martín Sánchez Insfrán</h1>
+                
+                <h2 class="t-subtitle" data-de="Facharzt für Innere Medizin | Intensivmedizin" data-en="Internal Medicine Specialist | Intensive Care" data-es="Especialista en Medicina Interna | Cuidados Intensivos">Facharzt für Innere Medizin | Intensivmedizin</h2>
+                
+                <p class="t-mission" data-de="Facharzt für Innere Medizin aus Paraguay mit umfangreicher Erfahrung in der Intensivmedizin. Derzeit in Vorbereitung auf die Fachsprachprüfung (FSP) und im laufenden Approbationsverfahren in Deutschland." data-en="Internal Medicine Specialist from Paraguay with extensive experience in Intensive Care. Currently preparing for the German medical language exam (FSP) and undergoing the medical licensure process in Germany." data-es="Especialista en Medicina Interna de Paraguay con amplia experiencia en Terapia Intensiva. Actualmente en preparación para el examen médico de alemán (FSP) y en proceso de homologación (Approbation) en Alemania.">Facharzt für Innere Medizin aus Paraguay mit umfangreicher Erfahrung in der Intensivmedizin. Derzeit in Vorbereitung auf die Fachsprachprüfung (FSP) und im laufenden Approbationsverfahren in Deutschland.</p>
+
+                <div class="hero-actions">
+                    <a href="#" class="btn btn-primary t-btn-cv" data-de="Lebenslauf (PDF)" data-en="Download CV (PDF)" data-es="Descargar CV (PDF)">Lebenslauf (PDF)</a>
+                    <a href="#kontakt" class="btn btn-secondary t-btn-contact" data-de="Kontakt" data-en="Contact" data-es="Contacto">Kontakt</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/profile.png" alt="Dr. Martín Sánchez Profile">
+            </div>
+        </section>
+
+        <!-- Qualifikationen -->
+        <section class="section">
+            <h3 class="section-title t-qual" data-de="Qualifikationen & Approbation" data-en="Qualifications & Licensure" data-es="Cualificaciones y Homologación">Qualifikationen & Approbation</h3>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-icon">🇩🇪</div>
+                    <h4 class="t-q1-title" data-de="Fachsprachprüfung (FSP)" data-en="Medical Language Exam (FSP)" data-es="Examen Médico de Idioma (FSP)">Fachsprachprüfung (FSP)</h4>
+                    <p class="t-q1-desc" data-de="In Vorbereitung. B2 Goethe-Zertifikat (05/2026) erfolgreich bestanden." data-en="In preparation. B2 Goethe-Certificate (05/2026) successfully passed." data-es="En preparación. Certificado Goethe B2 (05/2026) aprobado con éxito.">In Vorbereitung. B2 Goethe-Zertifikat (05/2026) erfolgreich bestanden.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📜</div>
+                    <h4 class="t-q2-title" data-de="Approbation" data-en="Medical Licensure" data-es="Homologación (Approbation)">Approbation</h4>
+                    <p class="t-q2-desc" data-de="Im laufenden Prozess zur vollständigen deutschen Anerkennung." data-en="In the ongoing process for full German medical recognition." data-es="En proceso activo para el reconocimiento médico completo en Alemania.">Im laufenden Prozess zur vollständigen deutschen Anerkennung.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🏥</div>
+                    <h4 class="t-q3-title" data-de="Facharzt-Fokus" data-en="Specialty Focus" data-es="Especialidad Objetivo">Facharzt-Fokus</h4>
+                    <p class="t-q3-desc" data-de="Ziel: Anerkennung als Facharzt für Innere Medizin mit Zusatzbezeichnung Intensivmedizin." data-en="Goal: Recognition as Specialist in Internal Medicine with Additional Qualification in Intensive Care." data-es="Meta: Reconocimiento como Especialista en Medicina Interna con sub-especialidad en Cuidados Intensivos.">Ziel: Anerkennung als Facharzt für Innere Medizin mit Zusatzbezeichnung Intensivmedizin.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Berufserfahrung -->
+        <section class="section bg-light">
+            <h3 class="section-title t-exp" data-de="Berufserfahrung (Klinische Erfahrung)" data-en="Professional Experience" data-es="Experiencia Profesional">Berufserfahrung (Klinische Erfahrung)</h3>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-icon">🏥</div>
+                    <h4 class="t-w1-title" data-de="Stationsarzt Intensivstation (UCI)" data-en="Attending Physician (ICU)" data-es="Médico Especialista en Terapia Intensiva (UCI)">Stationsarzt Intensivstation (UCI)</h4>
+                    <p class="timeline-date">04/2024 – <span class="t-now" data-de="heute" data-en="Present" data-es="Presente">heute</span></p>
+                    <p class="t-w1-inst" style="font-weight: 600;"><a href="https://www.sanatoriobritanico.com.py" class="external-link" target="_blank" rel="noopener noreferrer">Sanatorio Las Lomas</a><br><small style="color: var(--text-secondary); font-weight: normal;">📍 Asunción, Paraguay</small></p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">🏥</div>
+                    <h4 class="t-w2-title" data-de="Stationsarzt Intensivstation (UCI)" data-en="Attending Physician (ICU)" data-es="Médico Especialista en Terapia Intensiva (UCI)">Stationsarzt Intensivstation (UCI)</h4>
+                    <p class="timeline-date">06/2022 – <span class="t-now" data-de="heute" data-en="Present" data-es="Presente">heute</span></p>
+                    <p class="t-w2-inst" style="font-weight: 600;"><a href="https://sanatoriomigone.com.py" class="external-link" target="_blank" rel="noopener noreferrer">Sanatorio Migone</a><br><small style="color: var(--text-secondary); font-weight: normal;">📍 Asunción, Paraguay</small></p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🏥</div>
+                    <h4 class="t-w3-title" data-de="Stationsarzt Intensivstation (UCI)" data-en="Attending Physician (ICU)" data-es="Médico Especialista en Terapia Intensiva (UCI)">Stationsarzt Intensivstation (UCI)</h4>
+                    <p class="timeline-date">10/2021 – <span class="t-now" data-de="heute" data-en="Present" data-es="Presente">heute</span></p>
+                    <p class="t-w3-inst" style="font-weight: 600;"><a href="https://www.britanico.com.py" class="external-link" target="_blank" rel="noopener noreferrer">Sanatorio Británico</a><br><small style="color: var(--text-secondary); font-weight: normal;">📍 Asunción, Paraguay</small></p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Akademische Ausbildung -->
+        <section class="section">
+            <h3 class="section-title t-edu" data-de="Akademische Ausbildung" data-en="Academic Education" data-es="Formación Académica">Akademische Ausbildung</h3>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4 class="t-a1-title" data-de="Facharztweiterbildung in der Inneren Medizin" data-en="Specialty Training in Internal Medicine" data-es="Especialización en Medicina Interna">Facharztweiterbildung in der Inneren Medizin</h4>
+                        <span class="timeline-date">03/2020 – 02/2023</span>
+                        <p class="t-a1-inst" style="font-weight: 600;"><a href="https://www.med.una.py" class="external-link" target="_blank" rel="noopener noreferrer">Universidad Nacional de Asunción</a><br><small style="color: var(--text-secondary); font-weight: normal;">📍 San Lorenzo, Paraguay</small></p>
+                        <p class="t-a1-desc" data-de="Abschluss: Facharzt für Innere Medizin (Especialista en Medicina Interna)." data-en="Degree: Internal Medicine Specialist." data-es="Título: Especialista en Medicina Interna.">Abschluss: Facharzt für Innere Medizin (Especialista en Medicina Interna).</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4 class="t-a2-title" data-de="Diplom in Intensivmedizin" data-en="Diploma in Critical Care Medicine" data-es="Diplomado en Medicina Crítica">Diplom in Intensivmedizin</h4>
+                        <span class="timeline-date">05/2021 – 12/2021</span>
+                        <p class="t-a2-inst" style="font-weight: 600;"><a href="https://www.hospitalitaliano.org.ar" class="external-link" target="_blank" rel="noopener noreferrer">Hospital Italiano de Buenos Aires</a><br><small style="color: var(--text-secondary); font-weight: normal;">📍 Buenos Aires, Argentina</small></p>
+                        <p class="t-a2-desc" data-de="Zusatzqualifikation für die Betreuung kritisch kranker Patienten auf der Intensivstation." data-en="Additional qualification for the management of critically ill patients in the ICU." data-es="Calificación adicional para el manejo de pacientes en estado crítico en la UCI.">Zusatzqualifikation für die Betreuung kritisch kranker Patienten auf der Intensivstation.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4 class="t-a3-title" data-de="Studium der Humanmedizin" data-en="Doctor of Medicine (M.D.)" data-es="Título de Médico Cirujano">Studium der Humanmedizin</h4>
+                        <span class="timeline-date">03/2013 – 02/2020</span>
+                        <p class="t-a3-inst" style="font-weight: 600;"><a href="https://www.med.una.py" class="external-link" target="_blank" rel="noopener noreferrer">Universidad Nacional de Asunción</a><br><small style="color: var(--text-secondary); font-weight: normal;">📍 San Lorenzo, Paraguay</small></p>
+                        <p class="t-a3-desc" data-de="Akademischer Abschluss: Doctor en Medicina y Cirugía. Inklusive Praktisches Jahr (Internado Rotatorio)." data-en="Academic Degree: Doctor of Medicine and Surgery. Including clinical internship year." data-es="Grado Académico: Doctor en Medicina y Cirugía. Incluye año de Internado Rotatorio.">Akademischer Abschluss: Doctor en Medicina y Cirugía. Inklusive Praktisches Jahr (Internado Rotatorio).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Auszeichnungen & Publikationen -->
+        <section class="section bg-light">
+            <h3 class="section-title t-pub" data-de="Auszeichnungen & Publikationen" data-en="Awards & Publications" data-es="Reconocimientos y Publicaciones">Auszeichnungen & Publikationen</h3>
+            
+            <div class="card-grid">
+                <!-- Certificaciones y Honores -->
+                <div class="card">
+                    <div class="card-icon">🏆</div>
+                    <h4 class="t-p1-title" data-de="Zertifizierungen & Ehrungen" data-en="Certifications & Honors" data-es="Certificaciones y Honores">Zertifizierungen & Ehrungen</h4>
+                    <ul style="list-style-type: none; margin-top: 1rem;">
+                        <li style="margin-bottom: 0.5rem; color: var(--text-secondary);"><strong style="color: var(--accent-navy);">2024:</strong> <span class="t-p1-1" data-de="Fundamental Critical Care Support (FCCS) – SCCM" data-en="Fundamental Critical Care Support (FCCS) – SCCM" data-es="Fundamental Critical Care Support (FCCS) – SCCM">Fundamental Critical Care Support (FCCS) – SCCM</span></li>
+                        <li style="color: var(--text-secondary);"><strong style="color: var(--accent-navy);">2019:</strong> <span class="t-p1-2" data-de="Ehrentafel (Cuadro de Honor) der Universidad Nacional de Asunción." data-en="Honor Roll (Cuadro de Honor) of the National University of Asunción." data-es="Cuadro de Honor de la Universidad Nacional de Asunción.">Ehrentafel (Cuadro de Honor) der Universidad Nacional de Asunción.</span></li>
+                    </ul>
+                </div>
+                
+                <!-- Publicaciones -->
+                <div class="card span-2">
+                    <div class="card-icon">📖</div>
+                    <h4 class="t-p2-title" data-de="Wissenschaftliche Publikationen" data-en="Scientific Publications" data-es="Publicaciones Científicas">Wissenschaftliche Publikationen</h4>
+                    <ul style="list-style-type: disc; padding-left: 1.5rem; margin-top: 1rem; color: var(--text-secondary);">
+                        <li style="margin-bottom: 0.5rem;">Sánchez-Insfrán José, et al. <a href="https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0716-10182022000400472" class="external-link" target="_blank" rel="noopener noreferrer"><strong class="t-p2-1" data-de="Gemischte hämolytische Anämie nach SARS-CoV-2-Infektion..." data-en="Mixed hemolytic anemia following SARS-CoV-2 infection..." data-es="Anemia hemolítica mixta tras infección por SARS-CoV-2...">Gemischte hämolytische Anämie nach SARS-CoV-2-Infektion...</strong></a> (Rev. chil. infectol. 2022)</li>
+                        <li style="margin-bottom: 0.5rem;">Sánchez Insfrán, José Martín. <a href="https://doi.org/10.18004/rvspmi/2312-3893/2022.09.01.147" class="external-link" target="_blank" rel="noopener noreferrer"><strong class="t-p2-2" data-de="Chronische Gichtarthritis." data-en="Chronic gouty arthritis." data-es="Artritis gotosa crónica.">Chronische Gichtarthritis.</strong></a> (Revista Virtual SPMI, 2022)</li>
+                        <li>Sánchez Insfrán, José Martín, et al. <a href="https://scielo.iics.una.py/scielo.php?script=sci_arttext&pid=S2312-38932019000200011" class="external-link" target="_blank" rel="noopener noreferrer"><strong class="t-p2-3" data-de="Pflanzenvergiftungen im Nationalen Toxikologiezentrum (2011-2017)." data-en="Plant poisonings in the National Toxicology Center (2011-2017)." data-es="Intoxicaciones por plantas en el Centro Nacional de Toxicología (2011-2017).">Pflanzenvergiftungen im Nationalen Toxikologiezentrum (2011-2017).</strong></a> (Revista Virtual SPMI, 2019)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontakt -->
+        <section id="kontakt" class="section">
+            <h3 class="section-title t-contact" data-de="Kontakt & Zeugnisse" data-en="Contact & References" data-es="Contacto y Referencias">Kontakt & Zeugnisse</h3>
+            <p class="text-center t-contact-desc" style="max-width: 600px; margin: 0 auto 2rem; color: var(--text-secondary);" data-de="Arbeitszeugnisse und Empfehlungsschreiben sind auf Anfrage verfügbar." data-en="Letters of recommendation and clinical references are available upon request." data-es="Cartas de recomendación y referencias clínicas detalladas están disponibles bajo petición.">Arbeitszeugnisse und Empfehlungsschreiben sind auf Anfrage verfügbar.</p>
+            
+            <div class="contact-card">
+                <a href="mailto:sanchez.martin093@gmail.com" class="contact-link">
+                    ✉️ sanchez.martin093@gmail.com
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 <span class="t-footer-name" data-de="José Martín Sánchez Insfrán" data-en="MD. Martín Sánchez Insfrán" data-es="Dr. Martín Sánchez Insfrán">José Martín Sánchez Insfrán</span>. <span class="t-footer" data-de="Alle Rechte vorbehalten." data-en="All rights reserved." data-es="Todos los derechos reservados.">Alle Rechte vorbehalten.</span></p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

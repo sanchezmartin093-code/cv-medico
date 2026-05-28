@@ -1,0 +1,515 @@
+:root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --card-bg: #ffffff;
+    --text-primary: #0a2540;
+    --text-secondary: #4a5568;
+    --accent-emerald: #00a676;
+    --accent-navy: #0f172a;
+    --glass-bg: rgba(255, 255, 255, 0.85);
+    --glass-border: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] {
+    --bg-primary: #0b1120;
+    --bg-secondary: #111827;
+    --card-bg: #1e293b;
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --accent-emerald: #10b981;
+    --accent-navy: #f8fafc;
+    --glass-bg: rgba(11, 17, 32, 0.85);
+    --glass-border: rgba(255, 255, 255, 0.08);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--glass-border);
+    z-index: 1000;
+    padding: 1rem 0;
+}
+
+.nav-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 clamp(1rem, 3vw, 2rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: clamp(1.1rem, 2vw, 1.25rem);
+    color: var(--accent-navy);
+    letter-spacing: -0.5px;
+}
+
+.lang-switcher {
+    display: flex;
+    gap: 0.5rem;
+    background: rgba(0,0,0,0.03);
+    padding: 0.25rem;
+    border-radius: 8px;
+    align-items: center;
+}
+
+[data-theme="dark"] .lang-switcher {
+    background: rgba(255,255,255,0.05);
+}
+
+.theme-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: clamp(1rem, 1.5vw, 1.1rem);
+    padding: 0 0.25rem;
+    transition: transform 0.2s;
+    display: flex;
+    align-items: center;
+}
+.theme-btn:hover {
+    transform: scale(1.1);
+}
+
+.lang-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    padding: clamp(0.25rem, 1vw, 0.35rem) clamp(0.5rem, 1.5vw, 0.75rem);
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: clamp(0.8rem, 1.5vw, 0.85rem);
+    transition: all 0.2s ease;
+}
+
+.lang-btn:hover {
+    color: var(--accent-navy);
+}
+
+.lang-btn.active {
+    background: var(--card-bg);
+    color: var(--accent-emerald);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Main Content */
+main {
+    padding-top: 80px; 
+}
+
+.section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: clamp(3.5rem, 8vw, 6rem) clamp(1.5rem, 4vw, 2rem);
+}
+
+.bg-light {
+    background-color: var(--bg-secondary);
+    max-width: 100%;
+}
+
+.bg-light > div, .bg-light > h3 {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title {
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+    font-weight: 800;
+    margin-bottom: clamp(2rem, 5vw, 3rem);
+    color: var(--accent-navy);
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: clamp(2rem, 5vw, 4rem);
+    min-height: auto;
+    padding: clamp(2rem, 5vw, 4rem) clamp(1.5rem, 4vw, 2rem);
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+@media (min-width: 769px) {
+    .hero {
+        min-height: 85vh;
+    }
+}
+
+.hero-content {
+    flex: 1.2;
+}
+
+.hero-content h1 {
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: clamp(0.5rem, 2vw, 1rem);
+    color: var(--accent-navy);
+    letter-spacing: -1px;
+}
+
+.hero-content h2 {
+    font-size: clamp(1.15rem, 2.5vw, 1.5rem);
+    font-weight: 500;
+    color: var(--accent-emerald);
+    margin-bottom: clamp(1rem, 2.5vw, 1.5rem);
+}
+
+.hero-content p {
+    font-size: clamp(1rem, 2vw, 1.125rem);
+    color: var(--text-secondary);
+    margin-bottom: clamp(1.5rem, 4vw, 2.5rem);
+    max-width: 500px;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: clamp(0.875rem, 2vw, 1rem) clamp(1.5rem, 3vw, 1.75rem);
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-primary {
+    background-color: var(--accent-emerald);
+    color: white;
+    box-shadow: 0 4px 14px rgba(0, 166, 118, 0.25);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 166, 118, 0.4);
+    background-color: #00956a;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--accent-navy);
+    border: 2px solid rgba(15, 23, 42, 0.1);
+}
+
+.btn-secondary:hover {
+    border-color: var(--accent-navy);
+    background-color: rgba(15, 23, 42, 0.03);
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: clamp(250px, 40vw, 420px);
+    border-radius: 24px;
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.08);
+    transition: transform 0.5s ease;
+}
+
+.hero-image img:hover {
+    transform: scale(1.02) translateY(-10px);
+}
+
+/* Cards Grid */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: clamp(1.25rem, 3vw, 2rem);
+}
+
+.card {
+    background: var(--card-bg);
+    padding: clamp(1.5rem, 3.5vw, 2.5rem) clamp(1.5rem, 3vw, 2rem);
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+    border: 1px solid var(--glass-border);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 166, 118, 0.3);
+}
+
+.card-icon {
+    font-size: clamp(2rem, 4vw, 2.5rem);
+    margin-bottom: clamp(1rem, 2.5vw, 1.5rem);
+    background: var(--bg-secondary);
+    width: clamp(48px, 8vw, 60px);
+    height: clamp(48px, 8vw, 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.card h4 {
+    font-size: clamp(1.15rem, 2.5vw, 1.25rem);
+    color: var(--accent-navy);
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+}
+
+.card p {
+    color: var(--text-secondary);
+    font-size: clamp(0.95rem, 2vw, 1rem);
+}
+
+@media (min-width: 768px) {
+    .span-2 {
+        grid-column: span 2;
+    }
+}
+
+/* Timeline */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 11px;
+    height: 100%;
+    width: 2px;
+    background: rgba(0, 166, 118, 0.15);
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: clamp(2.5rem, 5vw, 3.5rem);
+    margin-bottom: clamp(2.5rem, 5vw, 3.5rem);
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background: var(--bg-primary);
+    border: 4px solid var(--accent-emerald);
+    border-radius: 50%;
+    box-shadow: 0 0 0 6px rgba(0, 166, 118, 0.1);
+    transition: all 0.3s ease;
+}
+
+.timeline-item:hover .timeline-dot {
+    transform: scale(1.2);
+    box-shadow: 0 0 0 8px rgba(0, 166, 118, 0.2);
+}
+
+.timeline-date {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--accent-emerald);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    background: rgba(0, 166, 118, 0.1);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+}
+
+.timeline-content h4 {
+    font-size: clamp(1.15rem, 3vw, 1.5rem);
+    color: var(--accent-navy);
+    margin-bottom: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.timeline-content p {
+    color: var(--text-secondary);
+    font-size: clamp(0.95rem, 2vw, 1.05rem);
+}
+
+/* Contact */
+.contact-card {
+    text-align: center;
+    background: var(--card-bg);
+    padding: clamp(3rem, 6vw, 4rem) clamp(1.5rem, 4vw, 2rem);
+    border-radius: 24px;
+    border: 1px solid var(--glass-border);
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-link {
+    font-size: clamp(1.1rem, 2.5vw, 1.25rem);
+    font-weight: 600;
+    color: var(--accent-navy);
+    text-decoration: none;
+    transition: color 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-link:hover {
+    color: var(--accent-emerald);
+}
+
+footer {
+    text-align: center;
+    padding: 3rem 2rem;
+    border-top: 1px solid var(--glass-border);
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    background-color: var(--bg-primary);
+}
+
+/* Enlaces externos */
+.external-link {
+    color: var(--accent-navy);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--accent-navy);
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+.external-link:hover {
+    color: var(--accent-blue);
+    border-bottom-style: solid;
+}
+.external-link::after {
+    content: "↗";
+    font-size: 0.85em;
+    opacity: 0.7;
+}
+
+/* Responsive Structural Overrides (Solo Layout, sin tipografías que ya son fluidas) */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+    .hero-content p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .hero-actions {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.75rem;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .span-2 {
+        grid-column: 1 !important;
+    }
+}
+
+/* Print Styles (Optimización para PDFs y papel) */
+@media print {
+    :root, [data-theme="dark"] {
+        --bg-primary: #ffffff !important;
+        --bg-secondary: #ffffff !important;
+        --card-bg: #ffffff !important;
+        --text-primary: #000000 !important;
+        --text-secondary: #333333 !important;
+        --accent-navy: #000000 !important;
+    }
+    
+    body {
+        background: white !important;
+        color: black !important;
+    }
+
+    /* Ocultar interfaz web */
+    .navbar, .hero-actions, .contact-card {
+        display: none !important;
+    }
+
+    /* Ajustar espacios */
+    main {
+        padding-top: 0 !important;
+    }
+    .section {
+        padding: 1rem 0 !important;
+    }
+    .hero {
+        min-height: auto !important;
+        padding: 1rem 0 !important;
+        gap: 1rem !important;
+    }
+
+    /* Evitar cortes a la mitad de una tarjeta */
+    .card, .timeline-item {
+        page-break-inside: avoid;
+        border: 1px solid #ccc !important;
+        box-shadow: none !important;
+    }
+
+    /* Mostrar las URLs de los enlaces al imprimir */
+    .external-link::after {
+        content: " (" attr(href) ")" !important;
+        font-size: 0.7em !important;
+        word-break: break-all;
+        opacity: 1 !important;
+    }
+}
