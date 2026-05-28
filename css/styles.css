@@ -641,6 +641,13 @@ footer {
 .qual-grid {
     grid-template-columns: repeat(2, 1fr) !important;
 }
+.qual-grid .card {
+    text-align: center;
+}
+.qual-grid .card-icon {
+    margin-left: auto;
+    margin-right: auto;
+}
 @media (max-width: 600px) {
     .qual-grid {
         grid-template-columns: 1fr !important;
@@ -716,6 +723,14 @@ footer {
     color: var(--text-primary);
 }
 
+/* Align badge column to the right and prevent awkward wrapping */
+.prozeduren-table th:last-child,
+.prozeduren-table td:last-child {
+    text-align: right;
+    width: 1%;
+    white-space: nowrap;
+}
+
 .prozeduren-table tr:last-child td {
     border-bottom: none;
 }
@@ -734,6 +749,23 @@ footer {
 .badge-success {
     background-color: rgba(16, 185, 129, 0.1);
     color: var(--accent-emerald);
+}
+
+/* Optimize prozeduren table on tablets & mobile */
+@media (max-width: 1024px) {
+    .prozeduren-table th, .prozeduren-table td {
+        padding: 0.75rem 0.5rem;
+    }
+    .prozeduren-table td {
+        font-size: clamp(0.8rem, 1.8vw, 0.9rem);
+    }
+    .prozeduren-table th {
+        font-size: 0.75rem;
+    }
+    .badge {
+        padding: 0.2rem 0.45rem;
+        font-size: 0.7rem;
+    }
 }
 
 /* Contact Bento Overhaul */
