@@ -75,4 +75,34 @@ document.addEventListener('DOMContentLoaded', () => {
         const themeBtn = document.getElementById('theme-toggle');
         if(themeBtn) themeBtn.innerText = '☀️';
     }
+
+    // 🚀 EMIL KOWALSKI: Fade-Up Observer
+    // 1. Add hidden class to elements to animate
+    document.querySelectorAll('.card, .section-title, .timeline-item').forEach(el => {
+        el.classList.add('reveal-hidden');
+    });
+
+    // 2. Setup Observer with cascade delay (delay increases slightly for each item in view)
+    const observerOptions = {
+        threshold: 0.15,
+        rootMargin: "0px 0px -50px 0px"
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        let delay = 0;
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Cascading effect
+                setTimeout(() => {
+                    entry.target.classList.add('reveal-visible');
+                }, delay);
+                delay += 100; // 100ms offset for each consecutive element
+                
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    // 3. Start observing
+    document.querySelectorAll('.reveal-hidden').forEach(el => observer.observe(el));
 });

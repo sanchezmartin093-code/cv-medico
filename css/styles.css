@@ -212,7 +212,8 @@ main {
     border-radius: 8px;
     font-weight: 600;
     text-decoration: none;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .btn-primary {
@@ -270,7 +271,7 @@ main {
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
     border: 1px solid var(--glass-border);
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .card:hover {
@@ -472,7 +473,76 @@ footer {
     }
 }
 
+/* =========================================
+   🚀 PREMIUM DESIGN INJECTIONS
+   ========================================= */
+
+/* Taste Skill: Background Orbs (Med-Tech Glassmorphism) */
+.bg-orbs {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+    pointer-events: none;
+}
+.bg-orb-1 {
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    width: 50vw;
+    height: 50vw;
+    background: radial-gradient(circle, rgba(16, 185, 129, 0.15) 0%, rgba(16, 185, 129, 0) 70%);
+    filter: blur(120px);
+}
+.bg-orb-2 {
+    position: absolute;
+    bottom: -20%;
+    right: -10%;
+    width: 60vw;
+    height: 60vw;
+    background: radial-gradient(circle, rgba(15, 23, 42, 0.4) 0%, rgba(15, 23, 42, 0) 70%);
+    filter: blur(120px);
+}
+
+/* Taste Skill: Glass Wrapper for Hero Image */
+.glass-wrapper {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    padding: 16px;
+    border-radius: 32px;
+    box-shadow: 0 32px 64px rgba(0, 0, 0, 0.15);
+}
+.hero-image img {
+    border-radius: 20px;
+    box-shadow: none; /* Shadow moved to wrapper */
+}
+
+/* Emil Kowalski: Fade-Up Animations */
+.reveal-hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), 
+                transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Kowalski: Physical Button Presses */
+.btn:active, .card:active {
+    transform: scale(0.96) !important;
+}
+
+/* ----------------------------------------- */
+
 /* Print Styles (Optimización para PDFs y papel) */
+/* Print Styles (Inteligencia A4) */
 @media print {
     :root, [data-theme="dark"] {
         --bg-primary: #ffffff !important;
@@ -481,43 +551,72 @@ footer {
         --text-primary: #000000 !important;
         --text-secondary: #333333 !important;
         --accent-navy: #000000 !important;
+        --accent-emerald: #000000 !important;
     }
     
     body {
         background: white !important;
         color: black !important;
+        font-size: 11pt !important;
     }
 
-    /* Ocultar interfaz web */
-    .navbar, .hero-actions, .contact-card {
+    /* Ocultar interfaz web y decoraciones */
+    .navbar, .hero-actions, .contact-card, .bg-orbs, .lang-switcher {
         display: none !important;
     }
 
-    /* Ajustar espacios */
+    /* Resetear animaciones Kowalski para papel */
+    .reveal-hidden, .reveal-visible {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+
+    /* Ajustar espacios para A4 */
     main {
         padding-top: 0 !important;
     }
     .section {
-        padding: 1rem 0 !important;
+        padding: 0.5rem 0 !important;
     }
+    
+    /* Hero Section: Formato clásico de CV impreso */
     .hero {
         min-height: auto !important;
-        padding: 1rem 0 !important;
-        gap: 1rem !important;
+        padding: 0 !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: flex-start !important;
+        border-bottom: 2px solid #000 !important;
+        margin-bottom: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    .hero-image img {
+        width: 120px !important;
+        height: 120px !important;
+        object-fit: cover !important;
+        border-radius: 8px !important;
+    }
+    .glass-wrapper {
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        backdrop-filter: none !important;
     }
 
-    /* Evitar cortes a la mitad de una tarjeta */
+    /* Evitar cortes de página */
     .card, .timeline-item {
         page-break-inside: avoid;
-        border: 1px solid #ccc !important;
+        border: 1px solid #ddd !important;
         box-shadow: none !important;
+        margin-bottom: 0.5rem !important;
     }
 
-    /* Mostrar las URLs de los enlaces al imprimir */
+    /* URLs explícitas al imprimir */
     .external-link::after {
         content: " (" attr(href) ")" !important;
-        font-size: 0.7em !important;
+        font-size: 9pt !important;
         word-break: break-all;
-        opacity: 1 !important;
     }
 }
