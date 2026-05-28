@@ -110,8 +110,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-    // 3. Start observing
-    document.querySelectorAll('.reveal-hidden').forEach(el => observer.observe(el));
+    // 3. Start observing after a tiny delay to ensure browser paints the hidden state first
+    setTimeout(() => {
+        document.querySelectorAll('.reveal-hidden').forEach(el => observer.observe(el));
+    }, 100);
 
     // 🚀 PREMIUM DESIGN INJECTIONS
     
