@@ -23,7 +23,7 @@
     <meta name="twitter:image" content="https://www.martinsanchez.de/img/og-banner.png">
     
     <!-- Favicon -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%230f172a'/><text x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-family='Georgia, serif' font-size='64' font-style='italic' font-weight='bold' fill='%2300a676'>M</text></svg>">
     
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -38,7 +38,7 @@
         <div class="nav-content">
             <div class="logo t-logo" data-de="M. Sánchez Insfrán" data-en="MD. M. Sánchez Insfrán" data-es="Dr. M. Sánchez Insfrán">M. Sánchez Insfrán</div>
             <div class="lang-switcher">
-                <button onclick="toggleTheme()" class="theme-btn" id="theme-toggle" aria-label="Toggle Dark Mode"><i class="ph-duotone ph-circle-half-tilt"></i></button>
+                <button onclick="toggleTheme()" class="theme-btn" id="theme-toggle" aria-label="Toggle Dark Mode"><i class="ph-duotone ph-moon" id="theme-icon"></i></button>
                 <div style="width: 1px; background: var(--glass-border); margin: 0 4px;"></div>
                 <button onclick="setLang('de')" class="lang-btn active" id="btn-de">DE</button>
                 <button onclick="setLang('en')" class="lang-btn" id="btn-en">EN</button>
@@ -89,6 +89,11 @@
                     <h4 class="t-q3-title" data-de="Facharzt-Fokus" data-en="Specialty Focus" data-es="Especialidad Objetivo">Facharzt-Fokus</h4>
                     <p class="t-q3-desc" data-de="Ziel: Anerkennung als Facharzt für Innere Medizin mit Zusatzbezeichnung Intensivmedizin." data-en="Goal: Recognition as Specialist in Internal Medicine with Additional Qualification in Intensive Care." data-es="Meta: Reconocimiento como Especialista en Medicina Interna con sub-especialidad en Cuidados Intensivos.">Ziel: Anerkennung als Facharzt für Innere Medizin mit Zusatzbezeichnung Intensivmedizin.</p>
                 </div>
+                <div class="card bento-card">
+                    <div class="card-icon"><i class="ph-duotone ph-calendar-check"></i></div>
+                    <h4 class="t-q4-title" data-de="Verfügbarkeit" data-en="Availability" data-es="Disponibilidad">Verfügbarkeit</h4>
+                    <p class="t-q4-desc" data-de="Sofortiger Einstieg nach bestandener Fachsprachprüfung (FSP)." data-en="Immediate start after passing the medical language exam (FSP)." data-es="Incorporación inmediata tras aprobación de la Fachsprachprüfung (FSP).">Sofortiger Einstieg nach bestandener Fachsprachprüfung (FSP).</p>
+                </div>
             </div>
         </section>
 
@@ -121,8 +126,85 @@
             </div>
         </section>
 
+
+        <!-- Klinische Autonomie & Leistungsspektrum -->
+        <section id="autonomie" class="section">
+            <div class="autonomie-container">
+                <h3 class="section-title t-autonomie-title" data-de="Klinische Autonomie & Leistungsspektrum" data-en="Clinical Autonomy & Scope of Practice" data-es="Autonomía Clínica y Procedimientos">Klinische Autonomie & Leistungsspektrum</h3>
+                
+                <div class="autonomie-grid">
+                    <!-- Tarjeta 1: Autonomía como Alleinarzt -->
+                    <div class="card bento-card autonomie-card">
+                        <div class="card-icon"><i class="ph-duotone ph-shield-check"></i></div>
+                        <h4 class="t-auto-card-title" data-de="Hohe klinische Autonomie unter fachärztlicher Leitung" data-en="High Clinical Autonomy under Specialist Supervision" data-es="Alta Autonomía Clínica bajo Supervisión Especializada">Hohe klinische Autonomie unter fachärztlicher Leitung</h4>
+                        <p class="t-auto-card-desc" data-de="Weitgehende Entscheidungsfreiheit im klinischen Alltag und proaktive Patientenversorgung auf der Intensivstation, in enger Abstimmung mit der fachärztlichen Leitung." data-en="Extensive decision-making freedom in daily clinical practice and proactive patient care in the ICU, in close coordination with specialist supervision." data-es="Amplia libertad de decisión en la práctica clínica diaria y atención proactiva al paciente en la UCI, en estrecha coordinación con la jefatura especializada.">Weitgehende Entscheidungsfreiheit im klinischen Alltag und proaktive Patientenversorgung auf der Intensivstation, in enger Abstimmung mit der fachärztlichen Leitung.</p>
+                        
+                        <div class="metrics-container">
+                            <div class="metric-item">
+                                <span class="metric-value">7-8</span>
+                                <span class="metric-label t-metric-beds" data-de="ITS-Betten unter Verantwortung" data-en="ICU Beds under Responsibility" data-es="Camas de UCI a Cargo">ITS-Betten unter Verantwortung</span>
+                            </div>
+                            <div class="metric-item">
+                                <span class="metric-value"><i class="ph-duotone ph-lightbulb"></i></span>
+                                <span class="metric-label t-metric-decisions" data-de="Proaktive Lösungsfindung" data-en="Proactive Problem-Solving" data-es="Resolución Proactiva">Proaktive Lösungsfindung</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tarjeta 2: Tabla de Procedimientos -->
+                    <div class="card bento-card prozeduren-card span-2">
+                        <div class="card-icon"><i class="ph-duotone ph-stethoscope"></i></div>
+                        <h4 class="t-proz-card-title" data-de="Klinische Prozeduren" data-en="Clinical Procedures" data-es="Procedimientos Clínicos">Klinische Prozeduren</h4>
+                        
+                        <div class="table-responsive">
+                            <table class="prozeduren-table">
+                                <thead>
+                                    <tr>
+                                        <th class="t-th-proc" data-de="Prozedur / Maßnahme" data-en="Procedure / Intervention" data-es="Procedimiento / Intervención">Prozedur / Maßnahme</th>
+                                        <th class="t-th-autonomy" data-de="Autonomiegrad" data-en="Level of Autonomy" data-es="Nivel de Autonomía">Autonomiegrad</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <strong class="t-proc1-name" data-de="Endotracheale Intubation & Atemwegsmanagement" data-en="Endotracheal Intubation & Airway Management" data-es="Intubación Endotraqueal y Manejo de Vía Aérea">Endotracheale Intubation & Atemwegsmanagement</strong>
+                                        </td>
+                                        <td><span class="badge badge-success t-badge-self" data-de="Selbstständig" data-en="Independent" data-es="Independiente">Selbstständig</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong class="t-proc2-name" data-de="Beatmungsmanagement (invasiv & nicht-invasiv)" data-en="Ventilatory Management (invasive & non-invasive)" data-es="Manejo Ventilatorio (invasivo y no invasivo)">Beatmungsmanagement (invasiv & nicht-invasiv)</strong>
+                                        </td>
+                                        <td><span class="badge badge-success t-badge-self" data-de="Selbstständig" data-en="Independent" data-es="Independiente">Selbstständig</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong class="t-proc3-name" data-de="Ultraschallgesteuerter ZVK & arterielle Kanülierung" data-en="Ultrasound-guided CVC & Arterial Cannulation" data-es="Vía Central (CVC) y Línea Arterial guiadas por Ecografía">Ultraschallgesteuerter ZVK & arterielle Kanülierung</strong>
+                                        </td>
+                                        <td><span class="badge badge-success t-badge-self" data-de="Selbstständig" data-en="Independent" data-es="Independiente">Selbstständig</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong class="t-proc4-name" data-de="Erweiterte Reanimation (ALS / ACLS)" data-en="Advanced Life Support (ALS / ACLS)" data-es="Soporte Vital Cardiovascular Avanzado (ACLS)">Erweiterte Reanimation (ALS / ACLS)</strong>
+                                        </td>
+                                        <td><span class="badge badge-success t-badge-self" data-de="Selbstständig" data-en="Independent" data-es="Independiente">Selbstständig</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong class="t-proc5-name" data-de="Hämodynamisches Monitoring & Katecholamintherapie" data-en="Hemodynamic Monitoring & Catecholamine Therapy" data-es="Monitoreo Hemodinámico y Terapia de Catecolaminas">Hämodynamisches Monitoring & Katecholamintherapie</strong>
+                                        </td>
+                                        <td><span class="badge badge-success t-badge-self" data-de="Selbstständig" data-en="Independent" data-es="Independiente">Selbstständig</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Akademische Ausbildung -->
-        <section class="section">
+        <section class="section bg-light">
             <h3 class="section-title t-edu" data-de="Akademische Ausbildung" data-en="Academic Education" data-es="Formación Académica">Akademische Ausbildung</h3>
             
             <div class="timeline" id="academic-timeline">
@@ -163,7 +245,7 @@
         </section>
 
         <!-- Auszeichnungen & Publikationen -->
-        <section class="section bg-light">
+        <section class="section">
             <h3 class="section-title t-pub" data-de="Auszeichnungen & Publikationen" data-en="Awards & Publications" data-es="Reconocimientos y Publicaciones">Auszeichnungen & Publikationen</h3>
             
             <div class="card-grid">
@@ -190,15 +272,59 @@
             </div>
         </section>
 
-        <!-- Kontakt -->
-        <section id="kontakt" class="section">
-            <h3 class="section-title t-contact" data-de="Kontakt & Zeugnisse" data-en="Contact & References" data-es="Contacto y Referencias">Kontakt & Zeugnisse</h3>
-            <p class="text-center t-contact-desc" style="max-width: 600px; margin: 0 auto 2rem; color: var(--text-secondary);" data-de="Arbeitszeugnisse und Empfehlungsschreiben sind auf Anfrage verfügbar." data-en="Letters of recommendation and clinical references are available upon request." data-es="Cartas de recomendación y referencias clínicas detalladas están disponibles bajo petición.">Arbeitszeugnisse und Empfehlungsschreiben sind auf Anfrage verfügbar.</p>
+        <!-- Digital Health -->
+        <section class="section bg-light">
+            <h3 class="section-title t-digital-title" data-de="Digital Health & Medical Innovation" data-en="Digital Health & Medical Innovation" data-es="Salud Digital e Innovación Médica">Digital Health & Medical Innovation</h3>
             
-            <div class="contact-card">
-                <a href="mailto:sanchez.martin093@gmail.com" class="contact-link">
-                    ✉️ sanchez.martin093@gmail.com
-                </a>
+            <div class="card-grid">
+                <div class="card bento-card">
+                    <div class="card-icon"><i class="ph-duotone ph-cpu"></i></div>
+                    <h4 class="t-d1-title" data-de="KI & Klinische Automatisierung" data-en="AI & Clinical Automation" data-es="IA y Automatización Clínica">KI & Klinische Automatisierung</h4>
+                    <p class="t-d1-desc" data-de="Entwicklung eigener LLM-basierter Workflows (Python) zur medizinischen Literaturrecherche, automatisierten Verarbeitung medizinischer Fachartikel (Papers) und Beziehungsanalyse." data-en="Development of custom LLM-based workflows (Python) for medical literature review, automated medical paper processing, and relationship analysis." data-es="Desarrollo de flujos de trabajo propios basados en IA (Python) para investigación de literatura médica, procesamiento automatizado de papers médicos y búsqueda de relaciones.">Entwicklung eigener LLM-basierter Workflows (Python) zur medizinischen Literaturrecherche, automatisierten Verarbeitung medizinischer Fachartikel (Papers) und Beziehungsanalyse.</p>
+                </div>
+                <div class="card bento-card">
+                    <div class="card-icon"><i class="ph-duotone ph-brain"></i></div>
+                    <h4 class="t-d2-title" data-de="Medizindidaktik & Wissensmanagement" data-en="Medical Didactics & Knowledge Management" data-es="Didáctica Médica y Gestión del Conocimiento">Medizindidaktik & Wissensmanagement</h4>
+                    <p class="t-d2-desc" data-de="Evidenzbasiertes Lernen durch strukturierte Spaced-Repetition-Systeme und kontinuierliche Digitalisierung medizinischer Leitlinien." data-en="Evidence-based learning through structured spaced-repetition systems and continuous digitization of medical guidelines." data-es="Aprendizaje basado en evidencia mediante sistemas estructurados de repetición espaciada y digitalización continua de guías médicas.">Evidenzbasiertes Lernen durch strukturierte Spaced-Repetition-Systeme und kontinuierliche Digitalisierung medizinischer Leitlinien.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Soft Skills & Kommunikation -->
+        <section class="section">
+            <h3 class="section-title t-soft-title" data-de="Soft Skills & Teamwork" data-en="Soft Skills & Teamwork" data-es="Habilidades Blandas y Trabajo en Equipo">Soft Skills & Teamwork</h3>
+            
+            <div class="card-grid">
+                <div class="card bento-card">
+                    <div class="card-icon"><i class="ph-duotone ph-users-three"></i></div>
+                    <h4 class="t-s1-title" data-de="Kommunikation & Angehörigengespräche" data-en="Communication & Family Consultations" data-es="Comunicación y Manejo de Familiares">Kommunikation & Angehörigengespräche</h4>
+                    <p class="t-s1-desc" data-de="Empathische und klare Kommunikation mit Patienten und Angehörigen, besonders in kritischen und emotional belastenden Situationen auf der Intensivstation." data-en="Empathetic and clear communication with patients and families, especially in critical and emotionally distressing situations in the ICU." data-es="Comunicación empática y clara con pacientes y familiares, especialmente en situaciones críticas y emocionalmente difíciles en la UCI.">Empathische und klare Kommunikation mit Patienten und Angehörigen, besonders in kritischen und emotional belastenden Situationen auf der Intensivstation.</p>
+                </div>
+                <div class="card bento-card">
+                    <div class="card-icon"><i class="ph-duotone ph-heartbeat"></i></div>
+                    <h4 class="t-s2-title" data-de="Crisis Resource Management (Belastbarkeit)" data-en="Crisis Resource Management (Resilience)" data-es="Manejo de Crisis (Resiliencia)">Crisis Resource Management (Belastbarkeit)</h4>
+                    <p class="t-s2-desc" data-de="Hohe Belastbarkeit und zielorientiertes Handeln in Notfällen. Souveräne Führung von Reanimationen und akuten Kriseninterventionen im Team." data-en="High resilience and goal-oriented action in emergencies. Confident leadership during resuscitations and acute crisis interventions within the team." data-es="Alta tolerancia a la presión y actuación orientada a objetivos en emergencias. Liderazgo sólido durante reanimaciones e intervenciones agudas en equipo.">Hohe Belastbarkeit und zielorientiertes Handeln in Notfällen. Souveräne Führung von Reanimationen und akuten Kriseninterventionen im Team.</p>
+                </div>
+                <div class="card bento-card">
+                    <div class="card-icon"><i class="ph-duotone ph-handshake"></i></div>
+                    <h4 class="t-s3-title" data-de="Interdisziplinäre Teamfähigkeit" data-en="Interdisciplinary Teamwork" data-es="Trabajo en Equipo Interdisciplinario">Interdisziplinäre Teamfähigkeit</h4>
+                    <p class="t-s3-desc" data-de="Harmonische und proaktive Zusammenarbeit mit Pflegekräften, Fachärzten und anderen Abteilungen für eine optimale und reibungslose Patientenversorgung." data-en="Harmonious and proactive collaboration with nursing staff, specialists, and other departments for optimal and seamless patient care." data-es="Colaboración armoniosa y proactiva con enfermería, especialistas y otros departamentos para una atención al paciente óptima y sin fricciones.">Harmonische und proaktive Zusammenarbeit mit Pflegekräften, Fachärzten und anderen Abteilungen für eine optimale und reibungslose Patientenversorgung.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontakt -->
+        <section id="kontakt" class="section bg-light">
+            <h3 class="section-title t-contact" data-de="Kontakt & Zeugnisse" data-en="Contact & References" data-es="Contacto y Referencias">Kontakt & Zeugnisse</h3>
+            <p class="text-center t-contact-desc" style="max-width: 600px; margin: 0 auto 2rem; color: var(--text-secondary);" data-de="Arbeitszeugnisse und Empfehlungsschreiben sind auf Anfrage verfügbar." data-en="Letters of recommendation and clinical references are available upon request." data-es="Cartas de recomendación y referencias clínicas detalladas están disponibles bajo petición.">Arbeitszeugnisse end Empfehlungsschreiben sind auf Anfrage verfügbar.</p>
+            
+            <div class="contact-card bento-card">
+                <div class="card-icon" style="margin: 0 auto 1.5rem;"><i class="ph-duotone ph-envelope-open"></i></div>
+                <p class="t-contact-prompt" style="margin-bottom: 1.5rem; font-weight: 500; font-size: 1.05rem;" data-de="Senden Sie mir eine E-Mail für Anfragen oder Bewerbungsgespräche:" data-en="Send me an email for inquiries or interview opportunities:" data-es="Envíeme un correo electrónico para consultas u oportunidades de entrevista:">Senden Sie mir eine E-Mail für Anfragen oder Bewerbungsgespräche:</p>
+                <div class="contact-details">
+                    <a href="mailto:sanchez.martin093@gmail.com" class="contact-email">sanchez.martin093@gmail.com</a>
+                    <button id="copy-email-btn" class="btn btn-copy t-btn-copy" aria-label="E-Mail-Adresse kopieren" data-de="Kopieren" data-en="Copy" data-es="Copiar"><i class="ph-duotone ph-copy" id="copy-icon" style="margin-right: 6px;"></i><span id="copy-btn-text">Kopieren</span></button>
+                </div>
             </div>
         </section>
     </main>

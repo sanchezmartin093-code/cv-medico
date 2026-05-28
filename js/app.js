@@ -56,6 +56,11 @@ function toggleTheme() {
     
     html.setAttribute('data-theme', newTheme);
     localStorage.setItem('preferredTheme', newTheme);
+
+    const themeIcon = document.getElementById('theme-icon');
+    if (themeIcon) {
+        themeIcon.className = newTheme === 'dark' ? 'ph-duotone ph-sun' : 'ph-duotone ph-moon';
+    }
 }
 
 
@@ -74,6 +79,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const savedTheme = localStorage.getItem('preferredTheme');
     if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         document.documentElement.setAttribute('data-theme', 'dark');
+        const themeIcon = document.getElementById('theme-icon');
+        if(themeIcon) themeIcon.className = 'ph-duotone ph-sun';
     }
 
     // 🚀 EMIL KOWALSKI: Fade-Up Observer
@@ -166,5 +173,43 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Initial trigger
         window.dispatchEvent(new Event('scroll'));
+    }
+
+    // D. Email Clipboard Copy Action
+    const copyBtn = document.getElementById('copy-email-btn');
+    const copyText = document.getElementById('copy-btn-text');
+    const copyIcon = document.getElementById('copy-icon');
+    
+    if (copyBtn && copyText && copyIcon) {
+        copyBtn.addEventListener('click', () => {
+            const email = "sanchez.martin093@gmail.com";
+            
+            navigator.clipboard.writeText(email).then(() => {
+                // Success feedback
+                copyBtn.classList.add('copied');
+                
+                // Get active language from html tag
+                const currentLang = document.documentElement.lang || 'de';
+                
+                // Set temporary text based on active language
+                let feedbackText = "Kopiert!";
+                if (currentLang === 'es') feedbackText = "¡Copiado!";
+                else if (currentLang === 'en') feedbackText = "Copied!";
+                
+                copyText.innerText = feedbackText;
+                copyIcon.className = "ph-duotone ph-check";
+                
+                setTimeout(() => {
+                    copyBtn.classList.remove('copied');
+                    
+                    // Revert to translation text
+                    const originalText = copyBtn.getAttribute('data-' + currentLang) || "Kopieren";
+                    copyText.innerText = originalText;
+                    copyIcon.className = "ph-duotone ph-copy";
+                }, 2000);
+            }).catch(err => {
+                console.error('Failed to copy email: ', err);
+            });
+        });
     }
 });
