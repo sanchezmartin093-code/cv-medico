@@ -16,6 +16,12 @@ function setLang(lang, isInitialLoad = false) {
     
     elementsToTranslate.forEach(el => {
         const translation = el.getAttribute('data-' + lang);
+        const langHref = el.getAttribute('data-' + lang + '-href');
+        
+        // Update link href if a language-specific href is provided
+        if (langHref && el.tagName === 'A') {
+            el.setAttribute('href', langHref);
+        }
         
         if (translation) {
             if (el.tagName === 'TITLE') {
