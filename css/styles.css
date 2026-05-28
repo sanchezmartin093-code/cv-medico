@@ -334,6 +334,8 @@ main {
     border-radius: 16px;
     color: var(--accent-emerald); /* Phosphor primary layer */
     --ph-secondary-color: var(--accent-navy); /* Phosphor secondary layer */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card h4 {
