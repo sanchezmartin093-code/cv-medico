@@ -184,7 +184,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     if (copyBtn && copyText && copyIcon) {
         copyBtn.addEventListener('click', () => {
-            const email = "sanchez.martin093@gmail.com";
+            // Obtenemos el correo del elemento ya descifrado para evitar hardcodearlo en JS
+            const emailLink = document.querySelector('.contact-email');
+            const email = emailLink ? emailLink.innerText : ('sanchez' + '.martin093' + '@' + 'gmail.com');
             
             navigator.clipboard.writeText(email).then(() => {
                 // Success feedback
@@ -214,4 +216,37 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
+
+    // 🚀 ANTI-BOT HYBRID DECRYPTION SYSTEM
+    // Decrypts contact data split into fragments in the HTML
+    document.querySelectorAll('.secure-data').forEach(el => {
+        const type = el.getAttribute('data-type');
+        const p1 = el.getAttribute('data-p1') || '';
+        const p2 = el.getAttribute('data-p2') || '';
+        const p3 = el.getAttribute('data-p3') || '';
+        const p4 = el.getAttribute('data-p4') || '';
+        
+        let content = '';
+        
+        if (type === 'email') {
+            content = p1 + p2 + '@' + p3;
+            const cssClass = el.getAttribute('data-class') || '';
+            el.innerHTML = `<a href="mailto:${content}" class="${cssClass}">${content}</a>`;
+        } else if (type === 'phone') {
+            content = p1 + p2 + p3 + p4;
+            el.innerHTML = content;
+        } else if (type === 'address') {
+            content = p1 + '<br>' + p2 + '<br>' + p3;
+            el.innerHTML = content;
+        }
+        
+        // Remove traces from the DOM
+        el.removeAttribute('data-p1');
+        el.removeAttribute('data-p2');
+        el.removeAttribute('data-p3');
+        el.removeAttribute('data-p4');
+        el.removeAttribute('data-type');
+        el.removeAttribute('data-class');
+        el.classList.remove('secure-data');
+    });
 });

@@ -479,6 +479,21 @@ footer {
     background-color: var(--bg-primary);
 }
 
+.footer-legal-links {
+    margin-left: 0.5rem;
+}
+
+.footer-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-link:hover {
+    color: var(--accent-emerald);
+    text-decoration: underline;
+}
+
 /* Enlaces externos */
 .external-link {
     color: var(--accent-navy);
