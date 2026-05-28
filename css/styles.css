@@ -40,6 +40,13 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Accessibility Focus Ring */
+a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--accent-emerald);
+    outline-offset: 4px;
+    border-radius: 4px;
+}
+
 /* Navbar */
 .navbar {
     position: fixed;
@@ -240,6 +247,7 @@ main {
 .hero-image img {
     width: 100%;
     max-width: clamp(250px, 40vw, 420px);
+    object-fit: cover;
     border-radius: 24px;
     box-shadow: 0 24px 48px rgba(0, 0, 0, 0.08);
     transition: transform 0.5s ease;
