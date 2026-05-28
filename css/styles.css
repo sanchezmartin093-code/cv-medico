@@ -764,6 +764,21 @@ footer {
     }
 }
 
+/* Centered Bento Cards */
+.card-center {
+    text-align: center;
+}
+
+.card-center .card-icon {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-center .metric-item {
+    align-items: center;
+    text-align: center;
+}
+
 /* ----------------------------------------- */
 
 /* Print Styles (Optimización para PDFs y papel) */
