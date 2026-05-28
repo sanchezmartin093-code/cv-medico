@@ -552,6 +552,8 @@ footer {
     height: 50vw;
     background: radial-gradient(circle, rgba(16, 185, 129, 0.15) 0%, rgba(16, 185, 129, 0) 70%);
     filter: blur(120px);
+    animation: float-orb-1 30s ease-in-out infinite alternate;
+    will-change: transform;
 }
 .bg-orb-2 {
     position: absolute;
@@ -561,6 +563,32 @@ footer {
     height: 60vw;
     background: radial-gradient(circle, rgba(15, 23, 42, 0.4) 0%, rgba(15, 23, 42, 0) 70%);
     filter: blur(120px);
+    animation: float-orb-2 40s ease-in-out infinite alternate;
+    will-change: transform;
+}
+
+@keyframes float-orb-1 {
+    0% {
+        transform: translate(0, 0) scale(1) rotate(0deg);
+    }
+    50% {
+        transform: translate(8vw, 12vh) scale(1.15) rotate(120deg);
+    }
+    100% {
+        transform: translate(-4vw, 6vh) scale(0.9) rotate(240deg);
+    }
+}
+
+@keyframes float-orb-2 {
+    0% {
+        transform: translate(0, 0) scale(1) rotate(0deg);
+    }
+    50% {
+        transform: translate(-10vw, -15vh) scale(1.1) rotate(-90deg);
+    }
+    100% {
+        transform: translate(5vw, -5vh) scale(0.95) rotate(-180deg);
+    }
 }
 
 /* Taste Skill: Glass Wrapper for Hero Image */
