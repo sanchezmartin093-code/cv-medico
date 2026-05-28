@@ -56,10 +56,6 @@ function toggleTheme() {
     
     html.setAttribute('data-theme', newTheme);
     localStorage.setItem('preferredTheme', newTheme);
-    
-    // Update icon
-    const themeBtn = document.getElementById('theme-toggle');
-    if(themeBtn) themeBtn.innerText = newTheme === 'dark' ? '☀️' : '🌙';
 }
 
 
@@ -78,8 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const savedTheme = localStorage.getItem('preferredTheme');
     if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
         document.documentElement.setAttribute('data-theme', 'dark');
-        const themeBtn = document.getElementById('theme-toggle');
-        if(themeBtn) themeBtn.innerText = '☀️';
     }
 
     // 🚀 EMIL KOWALSKI: Fade-Up Observer
@@ -111,4 +105,66 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 3. Start observing
     document.querySelectorAll('.reveal-hidden').forEach(el => observer.observe(el));
+
+    // 🚀 PREMIUM DESIGN INJECTIONS
+    
+    // A. Spotlight Glow Effect on Bento Cards
+    document.querySelectorAll('.bento-card').forEach(card => {
+        card.addEventListener('mousemove', e => {
+            const rect = card.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            card.style.setProperty('--mouse-x', `${x}px`);
+            card.style.setProperty('--mouse-y', `${y}px`);
+        });
+    });
+
+    // B. Magnetic Buttons
+    document.querySelectorAll('.btn-primary').forEach(btn => {
+        btn.addEventListener('mousemove', e => {
+            const rect = btn.getBoundingClientRect();
+            const x = e.clientX - rect.left - rect.width / 2;
+            const y = e.clientY - rect.top - rect.height / 2;
+            btn.style.transform = `translate(${x * 0.2}px, ${y * 0.2}px)`;
+        });
+        btn.addEventListener('mouseleave', () => {
+            btn.style.transform = 'translate(0px, 0px)';
+        });
+    });
+
+    // C. Timeline SVG Animation (Draw on Scroll)
+    const timelineSvg = document.getElementById('academic-timeline');
+    const path = document.getElementById('timeline-path');
+    
+    if (timelineSvg && path) {
+        const updatePath = () => {
+            const height = timelineSvg.offsetHeight;
+            // Draw a subtle elegant curve through the timeline
+            path.setAttribute('d', `M 12 0 C 12 ${height*0.2}, 30 ${height*0.3}, 12 ${height*0.5} C -6 ${height*0.7}, 12 ${height*0.8}, 12 ${height}`);
+            
+            const length = path.getTotalLength();
+            path.style.strokeDasharray = length;
+            path.style.strokeDashoffset = length;
+            return length;
+        };
+
+        let pathLength = updatePath();
+        
+        // Handle window resize gracefully
+        window.addEventListener('resize', () => {
+            pathLength = updatePath();
+        });
+
+        // Sync drawing with scroll position
+        window.addEventListener('scroll', () => {
+            const rect = timelineSvg.getBoundingClientRect();
+            // Start drawing when timeline enters viewport, finish when it leaves
+            const scrollPercent = (window.innerHeight - rect.top) / (rect.height + window.innerHeight * 0.5);
+            const drawPercent = Math.max(0, Math.min(1, scrollPercent));
+            path.style.strokeDashoffset = pathLength - (pathLength * drawPercent);
+        }, { passive: true });
+        
+        // Initial trigger
+        window.dispatchEvent(new Event('scroll'));
+    }
 });
