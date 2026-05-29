@@ -29,17 +29,22 @@ Fachkompetenter und engagierter Facharzt für Innere Medizin aus Paraguay mit um
 Dienstarzt auf der Erwachsenen-Intensivstation
 *Sanatorio Las Lomas, Paraguay* (Teilzeit / Wochenenddienste)
 * 12-Stunden-Tagdienste (Samstags 07:00 - 19:00 Uhr)
+* **Aufgabenbereich:** Primäre Betreuung und Stabilisierung kritisch kranker Patienten auf einer 8-Betten-Intensivstation.
+* **Klinische Tätigkeiten:** Durchführung von endotrachealen Intubationen, ZVK-Anlagen unter Ultraschallkontrolle, arterieller Kanülierung und differenzierter Katecholamintherapie.
 
 **06/2022 – heute**
 Dienstarzt auf der Erwachsenen-Intensivstation
 *Sanatorio Migone, Paraguay* (Nebentätigkeit / Wochenenddienste)
 * 12-Stunden-Nachtdienste (Samstags 19:00 - 07:00 Uhr)
+* **Aufgabenbereich:** Selbstständige Durchführung von Nachtdiensten (Alleinarzt) mit klinischer Betreuung von kritisch kranken Patienten auf der Intensivstation.
 
 **10/2021 – heute**
 Dienstarzt auf der Erwachsenen-Intensivstation
 *Sanatorio Británico, Paraguay* (Nebentätigkeit / Teilzeit)
 * 10/2021 – 12/2024: 12-Stunden-Nachtdienste (Montags 19:00 - 07:00 Uhr)
 * Seit 01/2025: 24-Stunden-Dienste (Montags)
+* **Aufgabenbereich:** Selbstständige Verantwortung für die Überwachung, Diagnose und Akutversorgung von Patienten der Intensivstation (Alleinarzt während der Nacht- und Feiertagsdienste).
+
 
 **03/2020 – 02/2023**
 Arzt in Weiterbildung (Assistenzarzt) für Innere Medizin
@@ -52,10 +57,6 @@ Arzt in Weiterbildung (Assistenzarzt) für Innere Medizin
 Facharztweiterbildung in der Inneren Medizin
 *Facultad de Ciencias Médicas de la Universidad Nacional de Asunción, Paraguay*
 Abschluss: Facharzt für Innere Medizin (Especialista en Medicina Interna)
-
-**05/2021 – 12/2021**
-Diplom in Intensivmedizin (Diplomado en Medicina Crítica)
-*Hospital Italiano de Buenos Aires, Argentinien (Online)*
 
 **03/2013 – 02/2020**
 **Studium der Humanmedizin (inklusive Praktisches Jahr)**
@@ -77,7 +78,9 @@ Ehrentafel (Cuadro de honor) des Studiengangs Humanmedizin, Abschlussjahrgang 20
 Zertifikatskurs: Fundamental Critical Care Support (FCCS) – Society of Critical Care Medicine (SCCM)
 
 **2021**
+* Diplom in Intensivmedizin (Diplomado en Medicina Crítica) – Hospital Italiano de Buenos Aires, Argentinien (Online, 8-monatiger Kurs)
 * I. Internationaler virtueller Kongress für Innere Medizin – SMIBA
+
 * Kongress SMIBA: Fieber unklarer Genese bei einem Patienten mit COVID-19
 * Kongress SMIBA: Rhino-orbito-zerebrale Mukormykose assoziiert mit COVID-19
 
@@ -100,7 +103,7 @@ Zertifikatskurs: Fundamental Critical Care Support (FCCS) – Society of Critica
 
 ## Interessen
 
-Anwendung von Künstlicher Intelligenz, Ambient/Downtempo-Musik, Trekking/Hiking
+Künstliche Intelligenz in der Medizin (Digital Health & Python), Ambient/Downtempo-Musik, Trekking/Hiking
 
 ---
 Asunción, 27. Mai 2026

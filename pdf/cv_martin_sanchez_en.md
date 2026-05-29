@@ -29,17 +29,22 @@ Competent and dedicated Internal Medicine Specialist from Paraguay with extensiv
 Staff Physician on the Adult Intensive Care Unit (ICU)
 *Sanatorio Las Lomas, Paraguay* (Part-time / Weekend shifts)
 * 12-hour day shifts (Saturdays 07:00 AM - 07:00 PM)
+* **Responsibilities:** Primary care and stabilization of critically ill patients in an 8-bed Intensive Care Unit (ICU).
+* **Clinical procedures:** Performance of endotracheal intubations, central venous catheterization (CVC) under ultrasound control, arterial cannulations, and specialized catecholamine therapy.
 
 **06/2022 – Present**
 Staff Physician on the Adult Intensive Care Unit (ICU)
 *Sanatorio Migone, Paraguay* (Secondary employment / Weekend shifts)
 * 12-hour night shifts (Saturdays 07:00 PM - 07:00 AM)
+* **Responsibilities:** Independent night shifts (sole physician on duty) with clinical management of critically ill patients in the ICU.
 
 **10/2021 – Present**
 Staff Physician on the Adult Intensive Care Unit (ICU)
 *Sanatorio Británico, Paraguay* (Secondary employment / Part-time)
 * 10/2021 – 12/2024: 12-hour night shifts (Mondays 07:00 PM - 07:00 AM)
 * Since 01/2025: 24-hour shifts (Mondays)
+* **Responsibilities:** Independent clinical responsibility for the monitoring, diagnosis, and acute care of patients in the ICU (sole physician on duty during night and holiday shifts).
+
 
 **03/2020 – 02/2023**
 Resident Physician in Internal Medicine
@@ -51,11 +56,7 @@ Resident Physician in Internal Medicine
 **03/2020 – 02/2023**
 Specialty Residency in Internal Medicine
 *Faculty of Medical Sciences, National University of Asunción, Paraguay*
-Degree: Specialist in Internal Medicine (Facharzt für Innere Medizin)
-
-**05/2021 – 12/2021**
-Postgraduate Diploma in Critical Care Medicine
-*Hospital Italiano de Buenos Aires, Argentina (Online)*
+Degree: Specialist in Internal Medicine (Facharzt für Innere Medicine)
 
 **03/2013 – 02/2020**
 **Medical Studies (including Clinical Internship Year)**
@@ -77,7 +78,9 @@ Honor Roll (Cuadro de Honor) of Medical School, Class of 2019
 Certification Course: Fundamental Critical Care Support (FCCS) – Society of Critical Care Medicine (SCCM)
 
 **2021**
+* Postgraduate Diploma in Critical Care Medicine – Hospital Italiano de Buenos Aires, Argentina (Online, 8-month course)
 * I International Virtual Congress of Internal Medicine – SMIBA
+
 * SMIBA Congress: Fever of unknown origin in a patient with COVID-19
 * SMIBA Congress: Rhino-orbito-cerebral mucormycosis associated with COVID-19
 
@@ -100,7 +103,7 @@ Certification Course: Fundamental Critical Care Support (FCCS) – Society of Cr
 
 ## Interests
 
-Artificial Intelligence applications, Ambient/Downtempo music, Hiking/Trekking
+Artificial Intelligence in Medicine (Digital Health & Python), Ambient/Downtempo music, Hiking/Trekking
 
 ---
 Asunción, May 27, 2026

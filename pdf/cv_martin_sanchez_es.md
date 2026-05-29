@@ -29,17 +29,22 @@ Médico especialista en Medicina Interna de Paraguay con amplia experiencia en T
 Médico Asistencial en la Unidad de Terapia Intensiva (UCI) de Adultos
 *Sanatorio Las Lomas, Paraguay* (Media jornada / Guardias de fin de semana)
 * Guardias diurnas de 12 horas (Sábados 07:00 - 19:00 hs)
+* **Responsabilidades:** Atención primaria y estabilización de pacientes en estado crítico en una Unidad de Terapia Intensiva (UCI) de 8 camas.
+* **Procedimientos clínicos:** Realización de intubaciones endotraqueales, colocación de vías venosas centrales (CVC) bajo guía ecográfica, accesos arteriales y terapia dirigida con catecolaminas.
 
 **06/2022 – Presente**
 Médico Asistencial en la Unidad de Terapia Intensiva (UCI) de Adultos
 *Sanatorio Migone, Paraguay* (Actividad secundaria / Guardias de fin de semana)
 * Guardias nocturnas de 12 horas (Sábados 19:00 - 07:00 hs)
+* **Responsabilidades:** Realización de guardias nocturnas independientes como médico único (Alleinarzt) con manejo clínico de pacientes críticos en UCI.
 
 **10/2021 – Presente**
 Médico Asistencial en la Unidad de Terapia Intensiva (UCI) de Adultos
 *Sanatorio Británico, Paraguay* (Actividad secundaria / Media jornada)
-* 10/2021 – 12/2024: Guardias nocturnas de 12 horas (Lunes 19:00 - 07:00 hs)
+* Guardias nocturnas de 12 horas (Lunes 19:00 - 07:00 hs)
 * Desde 01/2025: Guardias de 24 horas (Lunes)
+* **Responsabilidades:** Responsabilidad clínica independiente en la monitorización, diagnóstico y tratamiento agudo de pacientes en UCI (médico único de guardia durante noches y días festivos).
+
 
 **03/2020 – 02/2023**
 Residente de Medicina Interna (Médico Residente)
@@ -52,10 +57,6 @@ Residente de Medicina Interna (Médico Residente)
 Especialización en Medicina Interna
 *Facultad de Ciencias Médicas de la Universidad Nacional de Asunción, Paraguay*
 Título obtenido: Especialista en Medicina Interna (Facharzt für Innere Medizin)
-
-**05/2021 – 12/2021**
-Diplomado en Medicina Crítica
-*Hospital Italiano de Buenos Aires, Argentina (Modalidad Online)*
 
 **03/2013 – 02/2020**
 **Estudios de Medicina (incluyendo año de Internado Rotatorio)**
@@ -77,7 +78,9 @@ Cuadro de Honor de la carrera de Medicina, Promoción 2019
 Curso de Certificación: Fundamental Critical Care Support (FCCS) – Society of Critical Care Medicine (SCCM)
 
 **2021**
+* Diplomado en Medicina Crítica – Hospital Italiano de Buenos Aires, Argentina (Modalidad Online, curso de 8 meses)
 * I Congreso Virtual Internacional de Medicina Interna – SMIBA
+
 * Congreso SMIBA: Fiebre de origen desconocido en un paciente con COVID-19
 * Congreso SMIBA: Mucormicosis rino-orbito-cerebral asociada a COVID-19
 
@@ -100,7 +103,7 @@ Curso de Certificación: Fundamental Critical Care Support (FCCS) – Society of
 
 ## Intereses
 
-Aplicación de Inteligencia Artificial, Música Ambient/Downtempo, Senderismo/Trekking
+Inteligencia Artificial en Medicina (Salud Digital y Python), Música Ambient/Downtempo, Senderismo/Trekking
 
 ---
 Asunción, 27 de mayo de 2026
