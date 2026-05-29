@@ -86,6 +86,14 @@ a:focus-visible, button:focus-visible {
     letter-spacing: -0.5px;
 }
 
+/* Transición y hover para logo-link en impressum/datenschutz */
+a.logo {
+    transition: color 0.2s ease-in-out;
+}
+a.logo:hover {
+    color: var(--accent-emerald);
+}
+
 .lang-switcher {
     display: flex;
     gap: 0.5rem;
@@ -963,9 +971,10 @@ footer {
     p { font-size: 10pt !important; margin-bottom: 4pt !important; }
 
     /* Ocultar elementos inútiles en papel */
-    .navbar, .hero-actions, .contact-card, .bg-orbs, .lang-switcher, .theme-btn, .card-icon, .timeline-svg, .btn-copy, .floating-cta {
+    .navbar, .hero-actions, .bg-orbs, .lang-switcher, .theme-btn, .card-icon, .timeline-svg, .btn-copy, .floating-cta {
         display: none !important;
     }
+
 
     /* Contenedor principal sin espacios extra */
     main {

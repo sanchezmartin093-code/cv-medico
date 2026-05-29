@@ -3,21 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <script>
-        // Prevención síncrona de FOUT (Flash of Untranslated Text)
+        // Prevención síncrona de FOUT (Flash of Untranslated Text) y destello de tema claro (Theme Flash)
         (function() {
             var savedLang = localStorage.getItem('preferredLang');
             if (savedLang && savedLang !== 'de' && ['en', 'es'].indexOf(savedLang) !== -1) {
                 document.documentElement.classList.add('fout-prevent');
+                // Failsafe: asegurar que la página se muestre tras 500ms si falla JS o app.js
+                setTimeout(function() {
+                    document.documentElement.classList.remove('fout-prevent');
+                }, 500);
+            }
+            // Inicialización síncrona de tema
+            var savedTheme = localStorage.getItem('preferredTheme');
+            if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.setAttribute('data-theme', 'dark');
             }
         })();
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title class="t-impressum-title" data-de="Impressum | José Martín Sánchez Insfrán" data-en="Legal Notice | MD. Martín Sánchez Insfrán" data-es="Aviso Legal | Dr. Martín Sánchez Insfrán">Impressum | José Martín Sánchez Insfrán</title>
+    <link rel="canonical" href="https://www.martinsanchez.de/impressum.html">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script defer src="https://unpkg.com/@phosphor-icons/web"></script>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%230f172a'/><text x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-family='Georgia, serif' font-size='64' font-style='italic' font-weight='bold' fill='%2300a676'>M</text></svg>">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <div class="bg-orbs">
         <div class="bg-orb-1"></div>
@@ -40,7 +51,7 @@
     <main style="min-height: calc(100vh - 180px);">
         <section class="section">
             <div class="card bento-card" style="max-width: 800px; margin: 0 auto; padding: 3rem;">
-                <h1 class="section-title" style="text-align: left; margin-bottom: 1.5rem;">Impressum</h1>
+                <h1 class="section-title t-impressum-h1" data-de="Impressum" data-en="Legal Notice" data-es="Aviso Legal" style="text-align: left; margin-bottom: 1.5rem;">Impressum</h1>
                 <div style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 0.95rem;">
                     
                     <h3>Angaben gemäß § 5 TMG</h3>

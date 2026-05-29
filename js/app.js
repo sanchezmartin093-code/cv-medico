@@ -84,13 +84,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const activeLang = validLangs.includes(savedLang) ? savedLang : 'de';
     setLang(activeLang, true);
 
-    // Check saved theme or OS preference
-    const savedTheme = localStorage.getItem('preferredTheme');
-    if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.setAttribute('data-theme', 'dark');
+    // Sync theme toggle button icon based on early initialized theme attribute
+    const isDarkTheme = document.documentElement.getAttribute('data-theme') === 'dark';
+    if (isDarkTheme) {
         const themeIcon = document.getElementById('theme-icon');
-        if(themeIcon) themeIcon.className = 'ph-duotone ph-sun';
+        if (themeIcon) themeIcon.className = 'ph-duotone ph-sun';
     }
+
 
     // 🚀 EMIL KOWALSKI: Fade-Up Observer
     // 1. Add hidden class to elements to animate
