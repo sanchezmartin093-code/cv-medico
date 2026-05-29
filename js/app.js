@@ -7,9 +7,13 @@ function setLang(lang, isInitialLoad = false) {
     // 1. Update the active state on the buttons
     document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.classList.remove('active');
+        btn.removeAttribute('aria-current');
     });
     const activeBtn = document.getElementById('btn-' + lang);
-    if (activeBtn) activeBtn.classList.add('active');
+    if (activeBtn) {
+        activeBtn.classList.add('active');
+        activeBtn.setAttribute('aria-current', 'true');
+    }
 
     // 2. Translate all elements with class starting with "t-"
     const elementsToTranslate = document.querySelectorAll('[class*="t-"]');

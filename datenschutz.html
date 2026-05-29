@@ -19,11 +19,11 @@
         <div class="nav-content">
             <a href="index.html" class="logo t-logo" data-de="M. Sánchez Insfrán" data-en="MD. M. Sánchez Insfrán" data-es="Dr. M. Sánchez Insfrán" style="text-decoration: none;">M. Sánchez Insfrán</a>
             <div class="lang-switcher">
-                <button onclick="toggleTheme()" class="theme-btn" id="theme-toggle" aria-label="Toggle Dark Mode"><i class="ph-duotone ph-moon" id="theme-icon"></i></button>
+                <button onclick="toggleTheme()" class="theme-btn" id="theme-toggle" aria-label="Toggle Dark Mode"><i class="ph-duotone ph-moon" id="theme-icon" aria-hidden="true"></i></button>
                 <div style="width: 1px; background: var(--glass-border); margin: 0 4px;"></div>
-                <button onclick="setLang('de')" class="lang-btn active" id="btn-de">DE</button>
-                <button onclick="setLang('en')" class="lang-btn" id="btn-en">EN</button>
-                <button onclick="setLang('es')" class="lang-btn" id="btn-es">ES</button>
+                <button onclick="setLang('de')" class="lang-btn active" id="btn-de" aria-label="Deutsch (Alemán)">DE</button>
+                <button onclick="setLang('en')" class="lang-btn" id="btn-en" aria-label="English (Inglés)">EN</button>
+                <button onclick="setLang('es')" class="lang-btn" id="btn-es" aria-label="Español">ES</button>
             </div>
         </div>
     </nav>
