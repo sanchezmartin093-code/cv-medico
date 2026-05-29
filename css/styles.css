@@ -1094,6 +1094,21 @@ footer {
     }
 }
 
+/* Procedimientos: Icono al doble de tamaño para mejorar legibilidad */
+.prozeduren-card .card-icon {
+    width: clamp(96px, 16vw, 120px);
+    height: clamp(96px, 16vw, 120px);
+    font-size: clamp(4rem, 8vw, 5rem);
+    border-radius: 24px;
+    margin-bottom: 1.5rem;
+}
+
+@media print {
+    .prozeduren-card .card-icon {
+        display: none !important;
+    }
+}
+
 /* Soporte de accesibilidad para movimiento reducido */
 @media (prefers-reduced-motion: reduce) {
     html {

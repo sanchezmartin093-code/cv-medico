@@ -87,7 +87,7 @@
             <div class="hero-image">
                 <div class="glass-wrapper">
                     <!-- fetchpriority="high" prioriza la descarga sin bloquear renderizado; atributos width/height previenen layout shifts -->
-                    <img src="img/profile.png" alt="Dr. Martín Sánchez Profile" width="500" height="500" fetchpriority="high">
+                    <img src="img/profile.webp" alt="Dr. Martín Sánchez Profile" width="500" height="500" fetchpriority="high">
                 </div>
             </div>
         </section>
@@ -177,21 +177,52 @@
                     <!-- Tarjeta 2: Tabla de Procedimientos -->
                     <div class="card bento-card prozeduren-card">
                         <div class="card-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="1em" height="1em" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" aria-hidden="true" style="vertical-align: middle;">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="1em" height="1em" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" aria-hidden="true" style="vertical-align: middle;">
                                 <!-- Capa secundaria (relleno duotono con 20% de opacidad) -->
-                                <path d="M80,190 L80,110 Q50,105 45,60 L60,55 Q65,95 80,95 Z" fill="currentColor" opacity="0.2" stroke="none" />
-                                <path d="M155,110 Q175,95 195,110 L190,170 L160,170 Z" fill="currentColor" opacity="0.2" stroke="none" />
+                                <!-- Grupo Jeringa Relleno -->
+                                <g transform="rotate(-35, 128, 140) translate(-38, -10)">
+                                    <path d="M118,90 L138,90 L138,150 L118,150 Z" fill="currentColor" opacity="0.2" stroke="none" />
+                                </g>
+                                <!-- Grupo Transductor Relleno -->
+                                <g transform="rotate(35, 128, 130) translate(38, -10)">
+                                    <path d="M118,90 L138,90 L138,135 L148,135 Q128,150 108,135 L118,135 Z" fill="currentColor" opacity="0.2" stroke="none" />
+                                </g>
                                 
                                 <!-- Capa primaria (trazos principales) -->
-                                <!-- Laringoscopio (Izquierda) -->
-                                <line x1="80" y1="190" x2="80" y2="110" />
-                                <path d="M80,110 Q50,105 45,60" />
-                                <line x1="80" y1="110" x2="70" y2="110" stroke-width="12" />
+                                <!-- 1. JERINGA INCLINADA A LA DERECHA (Apuntando hacia el centro-abajo) -->
+                                <g transform="rotate(-35, 128, 140) translate(-38, -10)">
+                                    <!-- Cilindro -->
+                                    <rect x="118" y="90" width="20" height="60" rx="2" stroke-width="12" />
+                                    <!-- Apoyadedos -->
+                                    <line x1="110" y1="90" x2="146" y2="90" stroke-width="12" />
+                                    <!-- Émbolo -->
+                                    <line x1="128" y1="90" x2="128" y2="60" stroke-width="8" />
+                                    <line x1="118" y1="60" x2="138" y2="60" stroke-width="8" />
+                                    <!-- Acople de aguja -->
+                                    <path d="M124,150 L124,156 L132,156 L132,150 Z" stroke-width="8" fill="currentColor" />
+                                    <!-- Aguja fina -->
+                                    <line x1="128" y1="156" x2="128" y2="185" stroke-width="6" />
+                                    <!-- Graduación -->
+                                    <line x1="132" y1="105" x2="138" y2="105" stroke-width="4" opacity="0.7" />
+                                    <line x1="132" y1="120" x2="138" y2="120" stroke-width="4" opacity="0.7" />
+                                    <line x1="132" y1="135" x2="138" y2="135" stroke-width="4" opacity="0.7" />
+                                </g>
                                 
-                                <!-- Transductor (Derecha) -->
-                                <line x1="175" y1="170" x2="175" y2="110" />
-                                <path d="M155,110 Q175,95 195,110" stroke-width="20" />
-                                <path d="M175,170 Q175,210 128,210 Q80,210 80,190" stroke-width="10" />
+                                <!-- 2. TRANSDUCTOR INCLINADO A LA IZQUIERDA (Apuntando hacia el centro-abajo, cable a la derecha) -->
+                                <g transform="rotate(35, 128, 130) translate(38, -10)">
+                                    <!-- Mango de la sonda -->
+                                    <rect x="118" y="90" width="20" height="45" rx="3" stroke-width="12" />
+                                    <!-- Cabezal ensanchado -->
+                                    <path d="M108,135 L118,135 M148,135 L138,135" stroke-width="12" />
+                                    <path d="M108,135 Q128,150 148,135" stroke-width="16" />
+                                    <!-- Muesca de orientación lateral (marcador de la sonda) -->
+                                    <circle cx="143" cy="125" r="3" fill="currentColor" stroke="none" />
+                                    <!-- Cable de conexión (saliendo de arriba und curvándose a la derecha) -->
+                                    <path d="M128,90 Q128,50 170,50 T210,85" stroke-width="8" />
+                                    <!-- Ondas de ecografía (haz de ultrasonido apuntando hacia el centro) -->
+                                    <path d="M112,162 Q128,172 144,162" stroke-width="8" opacity="0.8" />
+                                    <path d="M104,179 Q128,192 152,179" stroke-width="8" opacity="0.5" />
+                                </g>
                             </svg>
                         </div>
                         <h4 class="t-proz-card-title" data-de="Klinische Prozeduren" data-en="Clinical Procedures" data-es="Procedimientos Clínicos">Klinische Prozeduren</h4>
@@ -257,7 +288,7 @@
                     <div class="timeline-content">
                         <h4 class="t-a1-title" data-de="Facharztweiterbildung in der Inneren Medizin" data-en="Specialty Training in Internal Medicine" data-es="Especialización en Medicina Interna">Facharztweiterbildung in der Inneren Medizin</h4>
                         <span class="timeline-date">03/2020 – 02/2023</span>
-                        <p class="t-a1-inst" style="font-weight: 600;"><a href="https://www.med.una.py" class="external-link" target="_blank" rel="noopener noreferrer">Universidad Nacional de Asunción</a><br><small style="color: var(--text-secondary); font-weight: normal;">📍 San Lorenzo, Paraguay</small></p>
+                        <p style="font-weight: 600;"><a href="https://www.med.una.py" class="external-link" target="_blank" rel="noopener noreferrer">Universidad Nacional de Asunción</a><br><small style="color: var(--text-secondary); font-weight: normal;">📍 San Lorenzo, Paraguay</small></p>
                         <p class="t-a1-desc" data-de="Abschluss: Facharzt für Innere Medizin (Especialista en Medicina Interna)." data-en="Degree: Internal Medicine Specialist." data-es="Título: Especialista en Medicina Interna.">Abschluss: Facharzt für Innere Medizin (Especialista en Medicina Interna).</p>
                     </div>
                 </div>
@@ -267,7 +298,7 @@
                     <div class="timeline-content">
                         <h4 class="t-a3-title" data-de="Studium der Humanmedizin" data-en="Doctor of Medicine (M.D.)" data-es="Título de Médico Cirujano">Studium der Humanmedizin</h4>
                         <span class="timeline-date">03/2013 – 02/2020</span>
-                        <p class="t-a3-inst" style="font-weight: 600;"><a href="https://www.med.una.py" class="external-link" target="_blank" rel="noopener noreferrer">Universidad Nacional de Asunción</a><br><small style="color: var(--text-secondary); font-weight: normal;">📍 San Lorenzo, Paraguay</small></p>
+                        <p style="font-weight: 600;"><a href="https://www.med.una.py" class="external-link" target="_blank" rel="noopener noreferrer">Universidad Nacional de Asunción</a><br><small style="color: var(--text-secondary); font-weight: normal;">📍 San Lorenzo, Paraguay</small></p>
                         <p class="t-a3-desc" data-de="Akademischer Abschluss: Doctor en Medicina y Cirugía. Inklusive Praktisches Jahr (Internado Rotatorio)." data-en="Academic Degree: Doctor of Medicine and Surgery. Including clinical internship year." data-es="Grado Académico: Doctor en Medicina y Cirugía. Incluye año de Internado Rotatorio.">Akademischer Abschluss: Doctor en Medicina y Cirugía. Inklusive Praktisches Jahr (Internado Rotatorio).</p>
                     </div>
                 </div>
