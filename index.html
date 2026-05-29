@@ -176,7 +176,24 @@
                     
                     <!-- Tarjeta 2: Tabla de Procedimientos -->
                     <div class="card bento-card prozeduren-card">
-                        <div class="card-icon"><i class="ph-duotone ph-stethoscope" aria-hidden="true"></i></div>
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="1em" height="1em" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" aria-hidden="true" style="vertical-align: middle;">
+                                <!-- Capa secundaria (relleno duotono con 20% de opacidad) -->
+                                <path d="M75,181 L135,121 Q180,115 195,65 L180,60 Q165,105 125,115 Z" fill="currentColor" opacity="0.2" stroke="none" />
+                                <path d="M181,181 L121,121 M105,137 Q115,115 137,105" fill="none" opacity="0.2" stroke="currentColor" stroke-width="32" />
+                                
+                                <!-- Capa primaria (trazos principales) -->
+                                <!-- Laringoscopio -->
+                                <line x1="75" y1="181" x2="135" y2="121" />
+                                <path d="M135,121 Q180,115 195,65" />
+                                <path d="M125,115 L135,125" stroke-width="12" />
+                                
+                                <!-- Transductor Ecográfico -->
+                                <line x1="181" y1="181" x2="121" y2="121" />
+                                <path d="M105,137 Q115,115 137,105" stroke-width="20" />
+                                <path d="M181,181 Q200,200 185,215 T135,210" stroke-width="10" />
+                            </svg>
+                        </div>
                         <h4 class="t-proz-card-title" data-de="Klinische Prozeduren" data-en="Clinical Procedures" data-es="Procedimientos Clínicos">Klinische Prozeduren</h4>
                         
                         <div class="table-responsive">
