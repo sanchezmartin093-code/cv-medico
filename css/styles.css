@@ -868,6 +868,63 @@ footer {
 
 /* ----------------------------------------- */
 
+/* ----------------------------------------- */
+/* Floating CTA Button */
+.floating-cta {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: rgba(15, 23, 42, 0.6); /* Dark navy glass */
+    border: 1px solid rgba(0, 166, 118, 0.4);
+    color: var(--accent-emerald);
+    padding: 0.9rem 1.25rem;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.floating-cta:hover {
+    background: var(--accent-emerald);
+    color: white;
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 40px rgba(0, 166, 118, 0.3);
+    border-color: var(--accent-emerald);
+}
+
+.floating-cta i {
+    font-size: 1.5rem;
+}
+
+.floating-cta-text {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    .floating-cta {
+        bottom: 1.5rem;
+        right: 1.5rem;
+        padding: 1rem; /* Perfectly circular on mobile */
+        border-radius: 50%;
+        background: var(--accent-emerald);
+        color: white;
+    }
+    .floating-cta i {
+        font-size: 1.6rem;
+    }
+    .floating-cta-text {
+        display: none; /* Hide text on mobile */
+    }
+}
+
 /* Print Styles (Optimización para PDFs y papel) */
 /* Print Styles (Inteligencia A4 - Bulletproof) */
 /* Print Styles (Inteligencia A4 - Ultra Compacto y Ordenado) */
@@ -901,7 +958,7 @@ footer {
     p { font-size: 10pt !important; margin-bottom: 4pt !important; }
 
     /* Ocultar elementos inútiles en papel */
-    .navbar, .hero-actions, .contact-card, .bg-orbs, .lang-switcher, .theme-btn, .card-icon, .timeline-svg, .btn-copy {
+    .navbar, .hero-actions, .contact-card, .bg-orbs, .lang-switcher, .theme-btn, .card-icon, .timeline-svg, .btn-copy, .floating-cta {
         display: none !important;
     }
 
