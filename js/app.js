@@ -66,9 +66,18 @@ function toggleTheme() {
 
     const themeIcon = document.getElementById('theme-icon');
     if (themeIcon) {
-        themeIcon.className = newTheme === 'dark' ? 'ph-duotone ph-sun' : 'ph-duotone ph-moon';
+        // Rotación y achicado de salida
+        themeIcon.style.transform = 'rotate(180deg) scale(0)';
+        
+        setTimeout(() => {
+            // Actualización del icono según el nuevo tema
+            themeIcon.className = newTheme === 'dark' ? 'ph-duotone ph-sun' : 'ph-duotone ph-moon';
+            // Giro y escala de entrada
+            themeIcon.style.transform = 'rotate(0deg) scale(1)';
+        }, 150);
     }
 }
+
 
 
 // Initialization on page load

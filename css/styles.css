@@ -111,15 +111,28 @@ a.logo:hover {
     background: transparent;
     border: none;
     cursor: pointer;
-    font-size: clamp(1rem, 1.5vw, 1.1rem);
+    font-size: clamp(1.1rem, 1.8vw, 1.25rem); /* Tamaño ligeramente optimizado */
     padding: 0 0.25rem;
-    transition: transform 0.2s;
     display: flex;
     align-items: center;
 }
-.theme-btn:hover {
-    transform: scale(1.1);
+.theme-btn i {
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), color 0.25s ease-in-out;
 }
+/* Colores Duotono Premium para el botón de tema */
+.theme-btn i.ph-moon {
+    color: #6366f1; /* Luna azul índigo en modo claro */
+}
+.theme-btn i.ph-moon:hover {
+    color: #4f46e5; /* Índigo más profundo al pasar el cursor */
+}
+[data-theme="dark"] .theme-btn i.ph-sun {
+    color: #f59e0b; /* Sol amarillo ámbar en modo oscuro */
+}
+[data-theme="dark"] .theme-btn i.ph-sun:hover {
+    color: #d97706; /* Ámbar más profundo al pasar el cursor */
+}
+
 
 .lang-btn {
     background: transparent;
