@@ -50,6 +50,9 @@ function setLang(lang, isInitialLoad = false) {
 
     // 3. Save language preference in localStorage
     localStorage.setItem('preferredLang', lang);
+
+    // 4. Remove FOUT prevention class to show translated page
+    document.documentElement.classList.remove('fout-prevent');
 }
 
 // Theme Toggle Logic
@@ -75,9 +78,11 @@ document.addEventListener('DOMContentLoaded', () => {
         el.style.transition = 'opacity 0.2s ease-in-out';
     });
 
-    // Check if user has a saved language preference
-    const savedLang = localStorage.getItem('preferredLang') || 'de'; // Default to German
-    setLang(savedLang, true);
+    // Check if user has a saved language preference with defensive validation
+    const savedLang = localStorage.getItem('preferredLang');
+    const validLangs = ['de', 'en', 'es'];
+    const activeLang = validLangs.includes(savedLang) ? savedLang : 'de';
+    setLang(activeLang, true);
 
     // Check saved theme or OS preference
     const savedTheme = localStorage.getItem('preferredTheme');

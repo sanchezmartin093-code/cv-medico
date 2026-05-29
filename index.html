@@ -2,6 +2,15 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
+    <script>
+        // Prevención síncrona de FOUT (Flash of Untranslated Text)
+        (function() {
+            var savedLang = localStorage.getItem('preferredLang');
+            if (savedLang && savedLang !== 'de' && ['en', 'es'].indexOf(savedLang) !== -1) {
+                document.documentElement.classList.add('fout-prevent');
+            }
+        })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title class="t-page-title" data-de="Martín Sánchez Insfrán | Arzt in Anerkennung | Innere Medizin" data-en="Martín Sánchez Insfrán | MD in Licensure Process | Internal Medicine" data-es="Martín Sánchez Insfrán | Médico en Homologación | Medicina Interna">Martín Sánchez Insfrán | Arzt in Anerkennung | Innere Medizin</title>
     <meta name="description" content="Offizielle Website von Martín Sánchez Insfrán. Arzt aus Paraguay auf dem Weg zur Approbation in Deutschland, mit Erfahrung in Intensivmedizin, Notfallversorgung und Digital Health.">
@@ -320,7 +329,7 @@
         <!-- Kontakt -->
         <section id="kontakt" class="section bg-light">
             <h3 class="section-title t-contact" data-de="Kontakt & Zeugnisse" data-en="Contact & References" data-es="Contacto y Referencias">Kontakt & Zeugnisse</h3>
-            <p class="text-center t-contact-desc" style="max-width: 600px; margin: 0 auto 2rem; color: var(--text-secondary);" data-de="Arbeitszeugnisse und Empfehlungsschreiben sind auf Anfrage verfügbar." data-en="Letters of recommendation and clinical references are available upon request." data-es="Cartas de recomendación y referencias clínicas detalladas están disponibles bajo petición.">Arbeitszeugnisse end Empfehlungsschreiben sind auf Anfrage verfügbar.</p>
+            <p class="text-center t-contact-desc" style="max-width: 600px; margin: 0 auto 2rem; color: var(--text-secondary);" data-de="Arbeitszeugnisse und Empfehlungsschreiben sind auf Anfrage verfügbar." data-en="Letters of recommendation and clinical references are available upon request." data-es="Cartas de recomendación y referencias clínicas detalladas están disponibles bajo petición.">Arbeitszeugnisse und Empfehlungsschreiben sind auf Anfrage verfügbar.</p>
             
             <div class="contact-card bento-card">
                 <div class="card-icon" style="margin: 0 auto 1.5rem;"><i class="ph-duotone ph-envelope-open" aria-hidden="true"></i></div>

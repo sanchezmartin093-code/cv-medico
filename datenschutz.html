@@ -2,6 +2,15 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
+    <script>
+        // Prevención síncrona de FOUT (Flash of Untranslated Text)
+        (function() {
+            var savedLang = localStorage.getItem('preferredLang');
+            if (savedLang && savedLang !== 'de' && ['en', 'es'].indexOf(savedLang) !== -1) {
+                document.documentElement.classList.add('fout-prevent');
+            }
+        })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title class="t-datenschutz-title" data-de="Datenschutzerklärung | José Martín Sánchez Insfrán" data-en="Privacy Policy | MD. Martín Sánchez Insfrán" data-es="Política de Privacidad | Dr. Martín Sánchez Insfrán">Datenschutzerklärung | José Martín Sánchez Insfrán</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
