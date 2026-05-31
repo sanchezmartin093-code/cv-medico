@@ -71,6 +71,7 @@ Abschluss: Facharzt für Innere Medizin (Especialista en Medicina Interna)
 **09/2019**
 Ehrentafel (Cuadro de honor) des Studiengangs Humanmedizin, Abschlussjahrgang 2019
 *Universidad Nacional de Asunción, Paraguay*
+<div style="page-break-before: always;"></div>
 
 ## Fortbildungen & Kongresse
 

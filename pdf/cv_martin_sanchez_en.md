@@ -71,6 +71,7 @@ Degree: Specialist in Internal Medicine (Facharzt für Innere Medicine)
 **09/2019**
 Honor Roll (Cuadro de Honor) of Medical School, Class of 2019
 *National University of Asunción, Paraguay*
+<div style="page-break-before: always;"></div>
 
 ## Courses & Congresses
 

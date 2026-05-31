@@ -71,6 +71,7 @@ Título obtenido: Especialista en Medicina Interna (Facharzt für Innere Medizin
 **09/2019**
 Cuadro de Honor de la carrera de Medicina, Promoción 2019
 *Universidad Nacional de Asunción, Paraguay*
+<div style="page-break-before: always;"></div>
 
 ## Cursos & Congresos
 
