@@ -389,6 +389,8 @@ main {
 
 .hero-image img {
     width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
     max-width: clamp(250px, 40vw, 420px);
     object-fit: cover;
     border-radius: 24px;
@@ -655,6 +657,20 @@ footer {
     .hero {
         flex-direction: column-reverse;
         text-align: center;
+    }
+    
+    .hero-image {
+        margin-bottom: 2rem;
+    }
+
+    .hero-image .glass-wrapper {
+        padding: 12px;
+        border-radius: 24px;
+    }
+
+    .hero-image img {
+        max-width: 200px;
+        border-radius: 16px;
     }
     
     .hero-content p {
