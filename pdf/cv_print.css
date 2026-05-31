@@ -23,6 +23,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     font-weight: 600;
+    display: flow-root;
 }
 p {
     margin-top: 0;
@@ -96,3 +97,18 @@ ul, ol {
         padding-top: 6px;
     }
 }
+
+/* Foto de perfil para el CV */
+.profile-photo {
+    float: right;
+    width: 3.5cm;
+    height: 3.5cm;
+    object-fit: cover;
+    border-radius: 50%;
+    border: none;
+    box-shadow: none;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+

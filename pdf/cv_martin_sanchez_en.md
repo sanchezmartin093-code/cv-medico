@@ -1,4 +1,5 @@
 <div class="footer-print">www.martinsanchez.de</div>
+<img src="../img/profile.webp" class="profile-photo" alt="José Martín Sánchez Insfrán" />
 
 # MEDICAL CURRICULUM VITAE
 
@@ -48,7 +49,7 @@ Staff Physician on the Adult Intensive Care Unit (ICU)
 **03/2020 – 02/2023**
 Specialty Residency in Internal Medicine
 *Faculty of Medical Sciences, National University of Asunción, Paraguay*
-Degree: Specialist in Internal Medicine (Facharzt für Innere Medicine)
+Degree: Specialist in Internal Medicine (Facharzt für Innere Medizin)
 
 **03/2013 – 02/2020**
 Medical Studies (including Clinical Internship Year)
@@ -101,7 +102,6 @@ Certification Course: Fundamental Critical Care Support (FCCS) – Society of Cr
 Artificial Intelligence in Medicine (Digital Health & Python), Ambient/Downtempo music, Hiking/Trekking
 
 ---
-Asunción, May 27, 2026
 
 _________________________________
 José Martín Sánchez Insfrán

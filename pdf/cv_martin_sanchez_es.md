@@ -1,4 +1,5 @@
 <div class="footer-print">www.martinsanchez.de</div>
+<img src="../img/profile.webp" class="profile-photo" alt="José Martín Sánchez Insfrán" />
 
 # CURRICULUM VITAE MÉDICO
 
@@ -101,7 +102,6 @@ Curso de Certificación: Fundamental Critical Care Support (FCCS) – Society of
 Inteligencia Artificial en Medicina (Salud Digital y Python), Música Ambient/Downtempo, Senderismo/Trekking
 
 ---
-Asunción, 27 de mayo de 2026
 
 _________________________________
 José Martín Sánchez Insfrán

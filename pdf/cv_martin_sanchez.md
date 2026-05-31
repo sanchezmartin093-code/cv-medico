@@ -1,4 +1,5 @@
 <div class="footer-print">www.martinsanchez.de</div>
+<img src="../img/profile.webp" class="profile-photo" alt="José Martín Sánchez Insfrán" />
 
 # ÄRZTLICHER LEBENSLAUF
 
@@ -30,18 +31,18 @@ Fachkompetenter und engagierter Facharzt für Innere Medizin aus Paraguay mit um
 **04/2024 – heute**
 Dienstarzt auf der Erwachsenen-Intensivstation
 *Sanatorio Las Lomas, Paraguay* (Teilzeit / Wochenenddienste)
-* 12-Stunden-Tagdienste (Samstags 07:00 - 19:00 Uhr)
+* 12-Stunden-Tagdienste (samstags 07:00 - 19:00 Uhr)
 
 **06/2022 – heute**
 Dienstarzt auf der Erwachsenen-Intensivstation
 *Sanatorio Migone, Paraguay* (Nebentätigkeit / Wochenenddienste)
-* 12-Stunden-Nachtdienste (Samstags 19:00 - 07:00 Uhr)
+* 12-Stunden-Nachtdienste (samstags 19:00 - 07:00 Uhr)
 
 **10/2021 – heute**
 Dienstarzt auf der Erwachsenen-Intensivstation
 *Sanatorio Británico, Paraguay* (Nebentätigkeit / Teilzeit)
-* 10/2021 – 12/2024: 12-Stunden-Nachtdienste (Montags 19:00 - 07:00 Uhr)
-* Seit 01/2025: 24-Stunden-Dienste (Montags)
+* 10/2021 – 12/2024: 12-Stunden-Nachtdienste (montags 19:00 - 07:00 Uhr)
+* Seit 01/2025: 24-Stunden-Dienste (montags)
 
 ## Akademische Ausbildung (Grundausbildung / Studium)
 
@@ -54,7 +55,7 @@ Abschluss: Facharzt für Innere Medizin (Especialista en Medicina Interna)
 Studium der Humanmedizin (inklusive Praktisches Jahr)
 *Facultad de Ciencias Médicas de la Universidad Nacional de Asunción, Paraguay*
 
-* **03/2013 – 12/2018:** Theoretisch-Klinische Studienphase (Akademischer Abschluss / Titelerteilung am 04.02.2019 als Doctor en Medicina y Cirugía).
+* **03/2013 – 12/2018:** Theoretisch-klinische Studienphase (Akademischer Abschluss / Titelerteilung am 04.02.2019 als Doctor en Medicina y Cirugía).
 * **01/2019 – 02/2019:** Vorbereitung auf Abschlussprüfungen und formale Titelerlangung.
 * **03/2019 – 02/2020:** Praktisches Jahr / Internado Rotatorio & Landpraktikum (Rotationen: Innere Medizin, Chirurgie, Pädiatrie, Gynäkologie und Geburtshilfe).
 * **Berufszulassung:** Vollständige ärztliche Berufszulassung (Approbation in Paraguay) erlangt nach erfolgreichem Abschluss des Praktischen Jahres.
@@ -80,7 +81,7 @@ Zertifikatskurs: Fundamental Critical Care Support (FCCS) – Society of Critica
 * Kongress SMIBA: Rhino-orbito-zerebrale Mukormykose assoziiert mit COVID-19
 
 **2020**
-* „Semana de Enfermedades infecciosas“, IDWeek 2020™
+* „Semana de Enfermedades Infecciosas“, IDWeek 2020™
 * World Sepsis Meeting: Breaking Barriers Around The World
 * Fortbildung für nicht-intensivmedizinische Ärzte: Sicheres Management von COVID-19
 
@@ -101,7 +102,6 @@ Zertifikatskurs: Fundamental Critical Care Support (FCCS) – Society of Critica
 Künstliche Intelligenz in der Medizin (Digital Health & Python), Ambient/Downtempo-Musik, Trekking/Hiking
 
 ---
-Asunción, 27. Mai 2026
 
 _________________________________
 José Martín Sánchez Insfrán
