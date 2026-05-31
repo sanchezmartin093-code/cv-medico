@@ -833,16 +833,30 @@ footer {
     }
 }
 
-/* Emil Kowalski: Fade-Up Animations */
-.reveal-hidden {
+/* Advanced Multi-Directional Scroll Animations */
+.reveal-up {
     opacity: 0;
     transform: translateY(30px);
-    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), 
-                transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal-left {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal-right {
+    opacity: 0;
+    transform: translateX(40px);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal-zoom {
+    opacity: 0;
+    transform: scale(0.92);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .reveal-visible {
     opacity: 1;
-    transform: translateY(0);
+    transform: translate(0) scale(1) !important;
 }
 
 /* Kowalski: Physical Button Presses */
@@ -1301,7 +1315,7 @@ footer {
     .bg-orb-1, .bg-orb-2 {
         animation: none !important;
     }
-    .reveal-hidden {
+    .reveal-up, .reveal-left, .reveal-right, .reveal-zoom {
         opacity: 1 !important;
         transform: none !important;
         transition: none !important;

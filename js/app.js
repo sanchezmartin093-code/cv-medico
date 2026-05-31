@@ -101,10 +101,24 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-    // 🚀 EMIL KOWALSKI: Fade-Up Observer
-    // 1. Add hidden class to elements to animate
-    document.querySelectorAll('.card, .section-title, .timeline-item').forEach(el => {
-        el.classList.add('reveal-hidden');
+    // 🚀 MULTI-DIRECTIONAL SCROLL ANIMATIONS
+    // 1. Add specific hidden classes based on element type for dynamic feel
+    document.querySelectorAll('.section-title, .timeline-item').forEach(el => {
+        el.classList.add('reveal-up'); // Text cascades up
+    });
+
+    document.querySelectorAll('.card').forEach((el, index) => {
+        // Alternating sides for cards based on grid index
+        if (index % 2 === 0) {
+            el.classList.add('reveal-left');
+        } else {
+            el.classList.add('reveal-right');
+        }
+    });
+
+    // Zoom effect for main images or big standalone elements
+    document.querySelectorAll('.hero-image, .contact-card').forEach(el => {
+        el.classList.add('reveal-zoom');
     });
 
     // 2. Setup Observer with cascade delay (delay increases slightly for each item in view)
@@ -130,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 3. Start observing after a tiny delay to ensure browser paints the hidden state first
     setTimeout(() => {
-        document.querySelectorAll('.reveal-hidden').forEach(el => observer.observe(el));
+        document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right, .reveal-zoom').forEach(el => observer.observe(el));
     }, 100);
 
     // 🚀 PREMIUM DESIGN INJECTIONS
