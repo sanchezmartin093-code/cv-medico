@@ -1,3 +1,5 @@
+<div class="footer-print">www.martinsanchez.de</div>
+
 # ÄRZTLICHER LEBENSLAUF
 
 **José Martín Sánchez Insfrán**
@@ -29,27 +31,17 @@ Fachkompetenter und engagierter Facharzt für Innere Medizin aus Paraguay mit um
 Dienstarzt auf der Erwachsenen-Intensivstation
 *Sanatorio Las Lomas, Paraguay* (Teilzeit / Wochenenddienste)
 * 12-Stunden-Tagdienste (Samstags 07:00 - 19:00 Uhr)
-* **Aufgabenbereich:** Primäre Betreuung und Stabilisierung kritisch kranker Patienten auf einer 8-Betten-Intensivstation.
-* **Klinische Tätigkeiten:** Durchführung von endotrachealen Intubationen, ZVK-Anlagen unter Ultraschallkontrolle, arterieller Kanülierung und differenzierter Katecholamintherapie.
 
 **06/2022 – heute**
 Dienstarzt auf der Erwachsenen-Intensivstation
 *Sanatorio Migone, Paraguay* (Nebentätigkeit / Wochenenddienste)
 * 12-Stunden-Nachtdienste (Samstags 19:00 - 07:00 Uhr)
-* **Aufgabenbereich:** Selbstständige Durchführung von Nachtdiensten (Alleinarzt) mit klinischer Betreuung von kritisch kranken Patienten auf der Intensivstation.
 
 **10/2021 – heute**
 Dienstarzt auf der Erwachsenen-Intensivstation
 *Sanatorio Británico, Paraguay* (Nebentätigkeit / Teilzeit)
 * 10/2021 – 12/2024: 12-Stunden-Nachtdienste (Montags 19:00 - 07:00 Uhr)
 * Seit 01/2025: 24-Stunden-Dienste (Montags)
-* **Aufgabenbereich:** Selbstständige Verantwortung für die Überwachung, Diagnose und Akutversorgung von Patienten der Intensivstation (Alleinarzt während der Nacht- und Feiertagsdienste).
-
-
-**03/2020 – 02/2023**
-Arzt in Weiterbildung (Assistenzarzt) für Innere Medizin
-*Primera Cátedra de Clínica Médica, Hospital de Clínicas de la Facultad de Ciencias Médicas, Universidad Nacional de Asunción, Paraguay*
-(Erfolgreicher Abschluss als Facharzt für Innere Medizin)
 
 ## Akademische Ausbildung (Grundausbildung / Studium)
 
@@ -59,19 +51,21 @@ Facharztweiterbildung in der Inneren Medizin
 Abschluss: Facharzt für Innere Medizin (Especialista en Medicina Interna)
 
 **03/2013 – 02/2020**
-**Studium der Humanmedizin (inklusive Praktisches Jahr)**
+Studium der Humanmedizin (inklusive Praktisches Jahr)
 *Facultad de Ciencias Médicas de la Universidad Nacional de Asunción, Paraguay*
+
 * **03/2013 – 12/2018:** Theoretisch-Klinische Studienphase (Akademischer Abschluss / Titelerteilung am 04.02.2019 als Doctor en Medicina y Cirugía).
 * **01/2019 – 02/2019:** Vorbereitung auf Abschlussprüfungen und formale Titelerlangung.
 * **03/2019 – 02/2020:** Praktisches Jahr / Internado Rotatorio & Landpraktikum (Rotationen: Innere Medizin, Chirurgie, Pädiatrie, Gynäkologie und Geburtshilfe).
-*Vollständige ärztliche Berufszulassung (Approbation in Paraguay) erlangt nach erfolgreichem Abschluss des Praktischen Jahres.*
+* **Berufszulassung:** Vollständige ärztliche Berufszulassung (Approbation in Paraguay) erlangt nach erfolgreichem Abschluss des Praktischen Jahres.
+
+<div style="page-break-before: always;"></div>
 
 ## Auszeichnungen
 
 **09/2019**
 Ehrentafel (Cuadro de honor) des Studiengangs Humanmedizin, Abschlussjahrgang 2019
 *Universidad Nacional de Asunción, Paraguay*
-<div style="page-break-before: always;"></div>
 
 ## Fortbildungen & Kongresse
 
@@ -92,9 +86,9 @@ Zertifikatskurs: Fundamental Critical Care Support (FCCS) – Society of Critica
 
 ## Wissenschaftliche Publikationen
 
-* **2022:** Sánchez-Insfrán José, Daiub María Eulalia, Llanes Rossana. Gemischte hämolytische Anämie nach SARS-CoV-2-Infektion bei einem Patienten mit Hepatitis-B-Virusinfektion. Rev. chil. infectol. 2022; 39(4): 472-476.
-* **2022:** Sánchez Insfrán, José Martín. Chronische Gichtarthritis. Revista Virtual de la Sociedad Paraguaya de Medicina Interna, 9(1), 147-148.
-* **2019:** Sánchez Insfrán, José Martín, et al. Pflanzenvergiftungen im Nationalen Toxikologiezentrum im Zeitraum 2011 - 2017. Asunción, Paraguay. Revista Virtual de la Sociedad Paraguaya de Medicina Interna, 6(2), 11-20.
+* **2022:** Sánchez-Insfrán José, Daiub María Eulalia, Llanes Rossana. [Gemischte hämolytische Anämie nach SARS-CoV-2-Infektion bei einem Patienten mit Hepatitis-B-Virusinfektion](https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0716-10182022000400472). Rev. chil. infectol. 2022; 39(4): 472-476.
+* **2022:** Sánchez Insfrán, José Martín. [Chronische Gichtarthritis](https://doi.org/10.18004/rvspmi/2312-3893/2022.09.01.147). Revista Virtual de la Sociedad Paraguaya de Medicina Interna, 9(1), 147-148.
+* **2019:** Sánchez Insfrán, José Martín, et al. [Pflanzenvergiftungen im Nationalen Toxikologiezentrum im Zeitraum 2011 - 2017. Asunción, Paraguay](https://scielo.iics.una.py/scielo.php?script=sci_arttext&pid=S2312-38932019000200011). Revista Virtual de la Sociedad Paraguaya de Medicina Interna, 6(2), 11-20.
 
 ## Sprachkenntnisse
 

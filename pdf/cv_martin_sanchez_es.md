@@ -1,3 +1,5 @@
+<div class="footer-print">www.martinsanchez.de</div>
+
 # CURRICULUM VITAE MÉDICO
 
 **José Martín Sánchez Insfrán**
@@ -29,27 +31,17 @@ Médico especialista en Medicina Interna de Paraguay con amplia experiencia en T
 Médico Asistencial en la Unidad de Terapia Intensiva (UCI) de Adultos
 *Sanatorio Las Lomas, Paraguay* (Media jornada / Guardias de fin de semana)
 * Guardias diurnas de 12 horas (Sábados 07:00 - 19:00 hs)
-* **Responsabilidades:** Atención primaria y estabilización de pacientes en estado crítico en una Unidad de Terapia Intensiva (UCI) de 8 camas.
-* **Procedimientos clínicos:** Realización de intubaciones endotraqueales, colocación de vías venosas centrales (CVC) bajo guía ecográfica, accesos arteriales y terapia dirigida con catecolaminas.
 
 **06/2022 – Presente**
 Médico Asistencial en la Unidad de Terapia Intensiva (UCI) de Adultos
 *Sanatorio Migone, Paraguay* (Actividad secundaria / Guardias de fin de semana)
 * Guardias nocturnas de 12 horas (Sábados 19:00 - 07:00 hs)
-* **Responsabilidades:** Realización de guardias nocturnas independientes como médico único (Alleinarzt) con manejo clínico de pacientes críticos en UCI.
 
 **10/2021 – Presente**
 Médico Asistencial en la Unidad de Terapia Intensiva (UCI) de Adultos
 *Sanatorio Británico, Paraguay* (Actividad secundaria / Media jornada)
 * Guardias nocturnas de 12 horas (Lunes 19:00 - 07:00 hs)
 * Desde 01/2025: Guardias de 24 horas (Lunes)
-* **Responsabilidades:** Responsabilidad clínica independiente en la monitorización, diagnóstico y tratamiento agudo de pacientes en UCI (médico único de guardia durante noches y días festivos).
-
-
-**03/2020 – 02/2023**
-Residente de Medicina Interna (Médico Residente)
-*Primera Cátedra de Clínica Médica, Hospital de Clínicas de la Facultad de Ciencias Médicas, Universidad Nacional de Asunción, Paraguay*
-(Finalización exitosa como Especialista en Medicina Interna)
 
 ## Formación Académica
 
@@ -59,19 +51,21 @@ Especialización en Medicina Interna
 Título obtenido: Especialista en Medicina Interna (Facharzt für Innere Medizin)
 
 **03/2013 – 02/2020**
-**Estudios de Medicina (incluyendo año de Internado Rotatorio)**
+Estudios de Medicina (incluyendo año de Internado Rotatorio)
 *Facultad de Ciencias Médicas de la Universidad Nacional de Asunción, Paraguay*
+
 * **03/2013 – 12/2018:** Fase de estudios teórico-clínicos (Grado académico de Doctor en Medicina y Cirugía otorgado el 04.02.2019).
 * **01/2019 – 02/2019:** Preparación para exámenes finales y tramitación formal del título.
 * **03/2019 – 02/2020:** Internado Rotatorio y Práctica Profesional Rural (Rotaciones en: Medicina Interna, Cirugía, Pediatría, Ginecología y Obstetricia).
-*Habilitación profesional completa (licencia médica en Paraguay) obtenida tras la finalización exitosa del Internado Rotatorio.*
+* **Habilitación Profesional:** Licencia médica completa en Paraguay obtenida tras la finalización exitosa del Internado Rotatorio.
+
+<div style="page-break-before: always;"></div>
 
 ## Reconocimientos
 
 **09/2019**
 Cuadro de Honor de la carrera de Medicina, Promoción 2019
 *Universidad Nacional de Asunción, Paraguay*
-<div style="page-break-before: always;"></div>
 
 ## Cursos & Congresos
 
@@ -92,9 +86,9 @@ Curso de Certificación: Fundamental Critical Care Support (FCCS) – Society of
 
 ## Publicaciones Científicas
 
-* **2022:** Sánchez-Insfrán José, Daiub María Eulalia, Llanes Rossana. Anemia hemolítica mixta tras infección por SARS-CoV-2 en un paciente con infección por el virus de la hepatitis B. Rev. chil. infectol. 2022; 39(4): 472-476.
-* **2022:** Sánchez Insfrán, José Martín. Artritis gotosa crónica. Revista Virtual de la Sociedad Paraguaya de Medicina Interna, 9(1), 147-148.
-* **2019:** Sánchez Insfrán, José Martín, et al. Intoxicaciones por plantas en el Centro Nacional de Toxicología en el período 2011 - 2017. Asunción, Paraguay. Revista Virtual de la Sociedad Paraguaya de Medicina Interna, 6(2), 11-20.
+* **2022:** Sánchez-Insfrán José, Daiub María Eulalia, Llanes Rossana. [Anemia hemolítica mixta tras infección por SARS-CoV-2 en un paciente con infección por el virus de la hepatitis B](https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0716-10182022000400472). Rev. chil. infectol. 2022; 39(4): 472-476.
+* **2022:** Sánchez Insfrán, José Martín. [Artritis gotosa crónica](https://doi.org/10.18004/rvspmi/2312-3893/2022.09.01.147). Revista Virtual de la Sociedad Paraguaya de Medicina Interna, 9(1), 147-148.
+* **2019:** Sánchez Insfrán, José Martín, et al. [Intoxicaciones por plantas en el Centro Nacional de Toxicología en el período 2011 - 2017. Asunción, Paraguay](https://scielo.iics.una.py/scielo.php?script=sci_arttext&pid=S2312-38932019000200011). Revista Virtual de la Sociedad Paraguaya de Medicina Interna, 6(2), 11-20.
 
 ## Idiomas
 

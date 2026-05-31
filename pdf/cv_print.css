@@ -70,10 +70,29 @@ ul, ol {
 
 @page {
     size: A4;
-    margin: 0;
+    margin: 1.5cm;
 }
 @media print {
     body {
-        margin: 1.0cm 1.2cm;
+        margin: 0;
+    }
+}
+
+/* Pie de página para impresión */
+.footer-print {
+    display: none;
+}
+@media print {
+    .footer-print {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 8pt;
+        color: #94a3b8;
+        border-top: 1px dashed #cbd5e1;
+        padding-top: 6px;
     }
 }

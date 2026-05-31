@@ -1,3 +1,5 @@
+<div class="footer-print">www.martinsanchez.de</div>
+
 # MEDICAL CURRICULUM VITAE
 
 **José Martín Sánchez Insfrán**
@@ -29,27 +31,17 @@ Competent and dedicated Internal Medicine Specialist from Paraguay with extensiv
 Staff Physician on the Adult Intensive Care Unit (ICU)
 *Sanatorio Las Lomas, Paraguay* (Part-time / Weekend shifts)
 * 12-hour day shifts (Saturdays 07:00 AM - 07:00 PM)
-* **Responsibilities:** Primary care and stabilization of critically ill patients in an 8-bed Intensive Care Unit (ICU).
-* **Clinical procedures:** Performance of endotracheal intubations, central venous catheterization (CVC) under ultrasound control, arterial cannulations, and specialized catecholamine therapy.
 
 **06/2022 – Present**
 Staff Physician on the Adult Intensive Care Unit (ICU)
 *Sanatorio Migone, Paraguay* (Secondary employment / Weekend shifts)
 * 12-hour night shifts (Saturdays 07:00 PM - 07:00 AM)
-* **Responsibilities:** Independent night shifts (sole physician on duty) with clinical management of critically ill patients in the ICU.
 
 **10/2021 – Present**
 Staff Physician on the Adult Intensive Care Unit (ICU)
 *Sanatorio Británico, Paraguay* (Secondary employment / Part-time)
 * 10/2021 – 12/2024: 12-hour night shifts (Mondays 07:00 PM - 07:00 AM)
 * Since 01/2025: 24-hour shifts (Mondays)
-* **Responsibilities:** Independent clinical responsibility for the monitoring, diagnosis, and acute care of patients in the ICU (sole physician on duty during night and holiday shifts).
-
-
-**03/2020 – 02/2023**
-Resident Physician in Internal Medicine
-*First Department of Internal Medicine, Hospital de Clínicas, Faculty of Medical Sciences, National University of Asunción, Paraguay*
-(Successfully completed with Specialty Degree in Internal Medicine)
 
 ## Academic Education
 
@@ -59,19 +51,21 @@ Specialty Residency in Internal Medicine
 Degree: Specialist in Internal Medicine (Facharzt für Innere Medicine)
 
 **03/2013 – 02/2020**
-**Medical Studies (including Clinical Internship Year)**
+Medical Studies (including Clinical Internship Year)
 *Faculty of Medical Sciences, National University of Asunción, Paraguay*
+
 * **03/2013 – 12/2018:** Theoretical and clinical studies phase (Academic degree of Doctor in Medicina y Cirugía awarded on February 4, 2019).
 * **01/2019 – 02/2019:** Preparation for final exams and official degree processing.
 * **03/2019 – 02/2020:** Clinical Internship & Rural Medical Practice (Rotations: Internal Medicine, General Surgery, Pediatrics, Gynecology & Obstetrics).
-*Full medical licensure (Approbation in Paraguay) obtained upon successful completion of the internship year.*
+* **Full Medical Licensure:** Obtained in Paraguay upon successful completion of the internship year.
+
+<div style="page-break-before: always;"></div>
 
 ## Honors & Awards
 
 **09/2019**
 Honor Roll (Cuadro de Honor) of Medical School, Class of 2019
 *National University of Asunción, Paraguay*
-<div style="page-break-before: always;"></div>
 
 ## Courses & Congresses
 
@@ -92,9 +86,9 @@ Certification Course: Fundamental Critical Care Support (FCCS) – Society of Cr
 
 ## Scientific Publications
 
-* **2022:** Sánchez-Insfrán José, Daiub María Eulalia, Llanes Rossana. Mixed hemolytic anemia following SARS-CoV-2 infection in a patient with hepatitis B virus infection. Rev. chil. infectol. 2022; 39(4): 472-476.
-* **2022:** Sánchez Insfrán, José Martín. Chronic gouty arthritis. Revista Virtual de la Sociedad Paraguaya de Medicina Interna, 9(1), 147-148.
-* **2019:** Sánchez Insfrán, José Martín, et al. Plant poisonings in the National Toxicology Center in the period 2011 - 2017. Asunción, Paraguay. Revista Virtual de la Sociedad Paraguaya de Medicina Interna, 6(2), 11-20.
+* **2022:** Sánchez-Insfrán José, Daiub María Eulalia, Llanes Rossana. [Mixed hemolytic anemia following SARS-CoV-2 infection in a patient with hepatitis B virus infection](https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0716-10182022000400472). Rev. chil. infectol. 2022; 39(4): 472-476.
+* **2022:** Sánchez Insfrán, José Martín. [Chronic gouty arthritis](https://doi.org/10.18004/rvspmi/2312-3893/2022.09.01.147). Revista Virtual de la Sociedad Paraguaya de Medicina Interna, 9(1), 147-148.
+* **2019:** Sánchez Insfrán, José Martín, et al. [Plant poisonings in the National Toxicology Center in the period 2011 - 2017. Asunción, Paraguay](https://scielo.iics.una.py/scielo.php?script=sci_arttext&pid=S2312-38932019000200011). Revista Virtual de la Sociedad Paraguaya de Medicina Interna, 6(2), 11-20.
 
 ## Languages
 
