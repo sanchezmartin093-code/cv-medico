@@ -29,20 +29,13 @@ Médico especialista en Medicina Interna de Paraguay con amplia experiencia en T
 ## Experiencia Profesional (Actividad Médica Post-Habilitación)
 
 **04/2024 – Presente**
-Médico Asistencial en la Unidad de Terapia Intensiva (UCI) de Adultos
-*Sanatorio Las Lomas, Paraguay* (Media jornada / Guardias de fin de semana)
-* Guardias diurnas de 12 horas (Sábados 07:00 - 19:00 hs)
+Médico Asistencial – Unidad de Terapia Intensiva (Adultos), [Sanatorio Las Lomas](https://www.sanatoriolaslomas.com.py), Asunción, Paraguay
 
 **06/2022 – Presente**
-Médico Asistencial en la Unidad de Terapia Intensiva (UCI) de Adultos
-*Sanatorio Migone, Paraguay* (Actividad secundaria / Guardias de fin de semana)
-* Guardias nocturnas de 12 horas (Sábados 19:00 - 07:00 hs)
+Médico Asistencial – Unidad de Terapia Intensiva (Adultos), [Sanatorio Migone](https://sanatoriomigone.com.py), Asunción, Paraguay
 
 **10/2021 – Presente**
-Médico Asistencial en la Unidad de Terapia Intensiva (UCI) de Adultos
-*Sanatorio Británico, Paraguay* (Actividad secundaria / Media jornada)
-* Guardias nocturnas de 12 horas (Lunes 19:00 - 07:00 hs)
-* Desde 01/2025: Guardias de 24 horas (Lunes)
+Médico Asistencial – Unidad de Terapia Intensiva (Adultos), [Sanatorio Británico](https://www.britanico.com.py), Asunción, Paraguay
 
 ## Formación Académica
 

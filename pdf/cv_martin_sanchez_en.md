@@ -29,20 +29,13 @@ Competent and dedicated Internal Medicine Specialist from Paraguay with extensiv
 ## Professional Experience (Medical Activity Post-Licensure)
 
 **04/2024 – Present**
-Staff Physician on the Adult Intensive Care Unit (ICU)
-*Sanatorio Las Lomas, Paraguay* (Part-time / Weekend shifts)
-* 12-hour day shifts (Saturdays 07:00 AM - 07:00 PM)
+Staff Physician – Adult Intensive Care Unit (ICU), [Sanatorio Las Lomas](https://www.sanatoriolaslomas.com.py), Asunción, Paraguay
 
 **06/2022 – Present**
-Staff Physician on the Adult Intensive Care Unit (ICU)
-*Sanatorio Migone, Paraguay* (Secondary employment / Weekend shifts)
-* 12-hour night shifts (Saturdays 07:00 PM - 07:00 AM)
+Staff Physician – Adult Intensive Care Unit (ICU), [Sanatorio Migone](https://sanatoriomigone.com.py), Asunción, Paraguay
 
 **10/2021 – Present**
-Staff Physician on the Adult Intensive Care Unit (ICU)
-*Sanatorio Británico, Paraguay* (Secondary employment / Part-time)
-* 10/2021 – 12/2024: 12-hour night shifts (Mondays 07:00 PM - 07:00 AM)
-* Since 01/2025: 24-hour shifts (Mondays)
+Staff Physician – Adult Intensive Care Unit (ICU), [Sanatorio Británico](https://www.britanico.com.py), Asunción, Paraguay
 
 ## Academic Education
 

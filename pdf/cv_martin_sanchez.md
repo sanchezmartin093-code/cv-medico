@@ -29,20 +29,13 @@ Fachkompetenter und engagierter Facharzt für Innere Medizin aus Paraguay mit um
 ## Berufserfahrung (Ärztliche Tätigkeit nach Approbation)
 
 **04/2024 – heute**
-Dienstarzt auf der Erwachsenen-Intensivstation
-*Sanatorio Las Lomas, Paraguay* (Teilzeit / Wochenenddienste)
-* 12-Stunden-Tagdienste (samstags 07:00 - 19:00 Uhr)
+Assistenzarzt – Erwachsenen-Intensivstation, [Sanatorio Las Lomas](https://www.sanatoriolaslomas.com.py), Asunción, Paraguay
 
 **06/2022 – heute**
-Dienstarzt auf der Erwachsenen-Intensivstation
-*Sanatorio Migone, Paraguay* (Nebentätigkeit / Wochenenddienste)
-* 12-Stunden-Nachtdienste (samstags 19:00 - 07:00 Uhr)
+Assistenzarzt – Erwachsenen-Intensivstation, [Sanatorio Migone](https://sanatoriomigone.com.py), Asunción, Paraguay
 
 **10/2021 – heute**
-Dienstarzt auf der Erwachsenen-Intensivstation
-*Sanatorio Británico, Paraguay* (Nebentätigkeit / Teilzeit)
-* 10/2021 – 12/2024: 12-Stunden-Nachtdienste (montags 19:00 - 07:00 Uhr)
-* Seit 01/2025: 24-Stunden-Dienste (montags)
+Assistenzarzt – Erwachsenen-Intensivstation, [Sanatorio Británico](https://www.britanico.com.py), Asunción, Paraguay
 
 ## Akademische Ausbildung (Grundausbildung / Studium)
 
