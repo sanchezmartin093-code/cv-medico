@@ -70,20 +70,24 @@ Honor Roll (Cuadro de Honor) of Medical School, Class of 2019
 
 ## Courses & Congresses
 
-**2024**
-Certification Course: Fundamental Critical Care Support (FCCS) – Society of Critical Care Medicine (SCCM)
+**Clinical Medicine & Critical Care**
 
-**2021**
-* Postgraduate Diploma in Critical Care Medicine – Hospital Italiano de Buenos Aires, Argentina (Online, 8-month course)
-* I International Virtual Congress of Internal Medicine – SMIBA
+* **2024:** Certification Course: Fundamental Critical Care Support (FCCS) – Society of Critical Care Medicine (SCCM)
+* **2021:** Postgraduate Diploma in Critical Care Medicine – Hospital Italiano de Buenos Aires, Argentina (Online, 8-month course)
+* **2021:** I International Virtual Congress of Internal Medicine – SMIBA
+  * SMIBA Congress: Fever of unknown origin in a patient with COVID-19
+  * SMIBA Congress: Rhino-orbito-cerebral mucormycosis associated with COVID-19
+* **2020:** „Infectious Diseases Week“, IDWeek 2020™ (IDSA)
+* **2020:** World Sepsis Meeting: Breaking Barriers Around The World
+* **2020:** Training for non-intensive care physicians: Safe Management of COVID-19
+* **2019:** Antimicrobial Stewardship: A competency-based approach – World Health Organization (WHO) (OpenWHO)
 
-* SMIBA Congress: Fever of unknown origin in a patient with COVID-19
-* SMIBA Congress: Rhino-orbito-cerebral mucormycosis associated with COVID-19
+**Research & Digital Health**
 
-**2020**
-* „Infectious Diseases Week“, IDWeek 2020™
-* World Sepsis Meeting: Breaking Barriers Around The World
-* Training for non-intensive care physicians: Safe Management of COVID-19
+* **2019:** Introduction to Systematic Review and Meta-Analysis – Johns Hopkins University (Coursera)
+* **2019:** Introduction to Data Science: Statistical Programming with R – National Autonomous University of Mexico (UNAM) (Coursera)
+* **2019:** R Programming – Johns Hopkins University (Coursera)
+* **2019:** The Data Scientist’s Toolbox – Johns Hopkins University (Coursera)
 
 ## Scientific Publications
 

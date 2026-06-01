@@ -70,20 +70,24 @@ Ehrentafel (Cuadro de honor) des Studiengangs Humanmedizin, Abschlussjahrgang 20
 
 ## Fortbildungen & Kongresse
 
-**2024**
-Zertifikatskurs: Fundamental Critical Care Support (FCCS) – Society of Critical Care Medicine (SCCM)
+**Klinische Medizin & Intensivmedizin**
 
-**2021**
-* Diplom in Intensivmedizin (Diplomado en Medicina Crítica) – Hospital Italiano de Buenos Aires, Argentinien (Online, 8-monatiger Kurs)
-* I. Internationaler virtueller Kongress für Innere Medizin – SMIBA
+* **2024:** Zertifikatskurs: Fundamental Critical Care Support (FCCS) – Society of Critical Care Medicine (SCCM)
+* **2021:** Diplom in Intensivmedizin (Diplomado en Medicina Crítica) – Hospital Italiano de Buenos Aires, Argentinien (Online, 8-monatiger Kurs)
+* **2021:** I. Internationaler virtueller Kongress für Innere Medizin – SMIBA
+  * Kongress SMIBA: Fieber unklarer Genese bei einem Patienten mit COVID-19
+  * Kongress SMIBA: Rhino-orbito-zerebrale Mukormykose assoziiert mit COVID-19
+* **2020:** „Semana de Enfermedades Infecciosas“, IDWeek 2020™ (IDSA)
+* **2020:** World Sepsis Meeting: Breaking Barriers Around The World
+* **2020:** Fortbildung für nicht-intensivmedizinische Ärzte: Sicheres Management von COVID-19
+* **2019:** Antimicrobial Stewardship: A competency-based approach – Weltgesundheitsorganisation (WHO) (OpenWHO)
 
-* Kongress SMIBA: Fieber unklarer Genese bei einem Patienten mit COVID-19
-* Kongress SMIBA: Rhino-orbito-zerebrale Mukormykose assoziiert mit COVID-19
+**Forschung & Digital Health**
 
-**2020**
-* „Semana de Enfermedades Infecciosas“, IDWeek 2020™
-* World Sepsis Meeting: Breaking Barriers Around The World
-* Fortbildung für nicht-intensivmedizinische Ärzte: Sicheres Management von COVID-19
+* **2019:** Introduction to Systematic Review and Meta-Analysis – Johns Hopkins University (Coursera)
+* **2019:** Einführung in Data Science: Statistische Programmierung mit R – National Autonome Universität von Mexiko (UNAM) (Coursera)
+* **2019:** R Programming – Johns Hopkins University (Coursera)
+* **2019:** The Data Scientist’s Toolbox – Johns Hopkins University (Coursera)
 
 ## Wissenschaftliche Publikationen
 

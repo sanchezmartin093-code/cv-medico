@@ -70,20 +70,24 @@ Cuadro de Honor de la carrera de Medicina, Promoción 2019
 
 ## Cursos & Congresos
 
-**2024**
-Curso de Certificación: Fundamental Critical Care Support (FCCS) – Society of Critical Care Medicine (SCCM)
+**Medicina Clínica & Crítica**
 
-**2021**
-* Diplomado en Medicina Crítica – Hospital Italiano de Buenos Aires, Argentina (Modalidad Online, curso de 8 meses)
-* I Congreso Virtual Internacional de Medicina Interna – SMIBA
+* **2024:** Curso de Certificación: Fundamental Critical Care Support (FCCS) – Society of Critical Care Medicine (SCCM)
+* **2021:** Diplomado en Medicina Crítica – Hospital Italiano de Buenos Aires, Argentina (Modalidad Online, curso de 8 meses)
+* **2021:** I Congreso Virtual Internacional de Medicina Interna – SMIBA
+  * Congreso SMIBA: Fiebre de origen desconocido en un paciente con COVID-19
+  * Congreso SMIBA: Mucormicosis rino-orbito-cerebral asociada a COVID-19
+* **2020:** „Semana de Enfermedades Infecciosas“, IDWeek 2020™ (IDSA)
+* **2020:** World Sepsis Meeting: Breaking Barriers Around The World
+* **2020:** Capacitación para médicos no intensivistas: Manejo seguro de COVID-19
+* **2019:** Antimicrobial Stewardship: A competency-based approach – Organización Mundial de la Salud (OMS) (OpenWHO)
 
-* Congreso SMIBA: Fiebre de origen desconocido en un paciente con COVID-19
-* Congreso SMIBA: Mucormicosis rino-orbito-cerebral asociada a COVID-19
+**Investigación & Salud Digital**
 
-**2020**
-* „Semana de Enfermedades Infecciosas“, IDWeek 2020™
-* World Sepsis Meeting: Breaking Barriers Around The World
-* Capacitación para médicos no intensivistas: Manejo seguro de COVID-19
+* **2019:** Introduction to Systematic Review and Meta-Analysis – Johns Hopkins University (Coursera)
+* **2019:** Introducción a Data Science: Programación Estadística con R – Universidad Nacional Autónoma de México (UNAM) (Coursera)
+* **2019:** R Programming – Johns Hopkins University (Coursera)
+* **2019:** The Data Scientist’s Toolbox – Johns Hopkins University (Coursera)
 
 ## Publicaciones Científicas
 
