@@ -77,6 +77,8 @@ Ehrentafel (Cuadro de honor) des Studiengangs Humanmedizin, Abschlussjahrgang 20
 
 **Forschung & Digital Health**
 
+* **2026:** Spezialisierungsprogramm: AI in Healthcare – Stanford University (Coursera) [Verifizierung](https://coursera.org/verify/specialization/SJ2WK646F65M)
+* **2026:** Kurs: FHIR Fundamentals – Medblocks (Zertifikat-ID: 224A5786-F14D-4A61-8E37-97691F5354AF6)
 * **2019:** Introduction to Systematic Review and Meta-Analysis – Johns Hopkins University (Coursera)
 * **2019:** Einführung in Data Science: Statistische Programmierung mit R – National Autonome Universität von Mexiko (UNAM) (Coursera)
 * **2019:** R Programming – Johns Hopkins University (Coursera)

@@ -77,6 +77,8 @@ Honor Roll (Cuadro de Honor) of Medical School, Class of 2019
 
 **Research & Digital Health**
 
+* **2026:** Specialization: AI in Healthcare – Stanford University (Coursera) [Verification](https://coursera.org/verify/specialization/SJ2WK646F65M)
+* **2026:** Course: FHIR Fundamentals – Medblocks (Certificate ID: 224A5786-F14D-4A61-8E37-97691F5354AF6)
 * **2019:** Introduction to Systematic Review and Meta-Analysis – Johns Hopkins University (Coursera)
 * **2019:** Introduction to Data Science: Statistical Programming with R – National Autonomous University of Mexico (UNAM) (Coursera)
 * **2019:** R Programming – Johns Hopkins University (Coursera)
