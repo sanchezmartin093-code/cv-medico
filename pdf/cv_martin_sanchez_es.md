@@ -79,6 +79,7 @@ Cuadro de Honor de la carrera de Medicina, Promoción 2019
 
 * **2026:** Especialización: AI in Healthcare – Stanford University (Coursera) [Verificación](https://coursera.org/verify/specialization/SJ2WK646F65M)
 * **2026:** Curso: FHIR Fundamentals – Medblocks (ID de Certificado: 224A5786-F14D-4A61-8E37-97691F5354AF6)
+* **2026:** Curso: Data Science in Health Technology Assessment – Genentech (Coursera) [Verificación](https://coursera.org/verify/KZ63OLL629G6)
 * **2019:** Introduction to Systematic Review and Meta-Analysis – Johns Hopkins University (Coursera)
 * **2019:** Introducción a Data Science: Programación Estadística con R – Universidad Nacional Autónoma de México (UNAM) (Coursera)
 * **2019:** R Programming – Johns Hopkins University (Coursera)
